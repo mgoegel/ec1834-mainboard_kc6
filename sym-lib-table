@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name robotron_ec1834)(type Legacy)(uri ${KIPRJMOD}/robotron_ec1834.lib)(options "")(descr ""))
+  (lib (name RFT_Digitalschaltkreise)(type Legacy)(uri F:/20-PCB/RFT-kicad-library/RFT_Digitalschaltkreise.lib)(options "")(descr ""))
+  (lib (name RFT_Analogschaltkreise)(type Legacy)(uri F:/20-PCB/RFT-kicad-library/RFT_Analogschaltkreise.lib)(options "")(descr ""))
+  (lib (name RFT_Optoelektronik)(type Legacy)(uri F:/20-PCB/RFT-kicad-library/RFT_Optoelektronik.lib)(options "")(descr ""))
+  (lib (name RFT_Transistoren_und_Dioden)(type Legacy)(uri F:/20-PCB/RFT-kicad-library/RFT_Transistoren_und_Dioden.lib)(options "")(descr ""))
+)
