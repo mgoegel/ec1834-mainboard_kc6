@@ -24,6 +24,10 @@ K TTL ALU Arith
 F http://www.ti.com/lit/gpn/sn74LS280
 $ENDCMP
 #
+$CMP 74S51
+D 2 DUAL AND-OR-INVERT Gatter
+$ENDCMP
+#
 $CMP 8086
 D 8086 (maximum mode), 16-Bit HMOS Microprocessor, PDIP-40
 K MPRO
@@ -77,6 +81,10 @@ D Schwellspannungsschaltkreis
 F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/a302.gif
 $ENDCMP
 #
+$CMP D108D
+D 4 AND-Gatter mit je 2 Eingängen
+$ENDCMP
+#
 $CMP D110D
 D 3 NAND-Gatter mit je 3 Eingängen
 F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/d110.gif
@@ -85,6 +93,11 @@ $ENDCMP
 $CMP D210D
 D 3 NAND-Gatter mit je 3 Eingängen
 F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/d210.gif
+$ENDCMP
+#
+$CMP DL008D
+D 4 AND-Gatter mit je 2 Eingängen
+F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif
 $ENDCMP
 #
 $CMP DL010D-D63
@@ -189,6 +202,11 @@ K TTL MUX MUX2
 F http://www.ti.com/lit/gpn/sn74LS257
 $ENDCMP
 #
+$CMP KR531LI1
+D 4 AND-Gatter mit je 2 Eingängen
+F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif
+$ENDCMP
+#
 $CMP KR580IK57
 D Programmable DMA Controller, PDIP-40
 K 8237 DMA
@@ -213,6 +231,11 @@ K 8255 PPI
 F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
 $ENDCMP
 #
+$CMP U2764
+D 8K × 8 bit UV-löschbarer Festwertspeicher (EPROM)
+K EPROM
+$ENDCMP
+#
 $CMP UC8821
 D EMR Ein Chip Mikrorechner 5 MHz
 K EMR
@@ -221,6 +244,11 @@ $ENDCMP
 #
 $CMP К555ЛА4
 D 3 NAND-Gatter mit je 3 Eingängen
+F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif
+$ENDCMP
+#
+$CMP К555ЛИ1
+D 4 AND-Gatter mit je 2 Eingängen
 F https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif
 $ENDCMP
 #

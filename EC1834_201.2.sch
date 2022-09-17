@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -634,7 +634,7 @@ L RFT_Digitalschaltkreise:DL008D D88
 U 3 1 63175E3C
 P 2100 3650
 F 0 "D88" H 2100 3967 50  0000 C CNN
-F 1 "KR531LI1" H 2100 3876 50  0000 C CNN
+F 1 "DL008D" H 2100 3876 50  0000 C CNN
 F 2 "" H 2100 3650 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 2100 3650 50  0001 C CNN
 	3    2100 3650
@@ -1052,7 +1052,7 @@ L RFT_Digitalschaltkreise:DL008D D88
 U 4 1 63175EAE
 P 12250 7250
 F 0 "D88" H 12250 7567 50  0000 C CNN
-F 1 "KR531LI1" H 12250 7476 50  0000 C CNN
+F 1 "DL008D" H 12250 7476 50  0000 C CNN
 F 2 "" H 12250 7250 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 12250 7250 50  0001 C CNN
 	4    12250 7250

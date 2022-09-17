@@ -24,6 +24,10 @@ K TTL ALU Arith
 F http://www.ti.com/lit/gpn/sn74LS280
 $ENDCMP
 #
+$CMP 74S51
+D 2 DUAL AND-OR-INVERT Gatter
+$ENDCMP
+#
 $CMP 8086
 D 8086 (maximum mode), 16-Bit HMOS Microprocessor, PDIP-40
 K MPRO
@@ -225,6 +229,11 @@ $CMP KR580WW55A
 D Programmable Peripheral Interface, PDIP-40
 K 8255 PPI
 F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
+$ENDCMP
+#
+$CMP U2764
+D 8K × 8 bit UV-löschbarer Festwertspeicher (EPROM)
+K EPROM
 $ENDCMP
 #
 $CMP UC8821

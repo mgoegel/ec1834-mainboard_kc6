@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -37,4 +37,10 @@ F1 "EC1834_201.3.sch" 50
 $EndSheet
 Text Notes 10700 5250 0    404  ~ 0
 Seite 3 - RAM
+$Sheet
+S 10500 12250 7500 4950
+U 63239FAE
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC

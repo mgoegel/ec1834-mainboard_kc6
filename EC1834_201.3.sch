@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "EC1834 201.3 RAM"
 Date "2022-09-05"
 Rev ""
@@ -753,13 +753,13 @@ F 3 "" H 6050 3300 50  0001 C CNN
 $EndComp
 $Comp
 L robotron_ec1834:KR531LI1 D90
-U 3 1 6322F280
+U 2 1 6322F280
 P 6150 14500
 F 0 "D90" H 6150 14550 50  0000 C CNN
 F 1 "KR531LI1" H 6200 14300 50  0000 C CNN
 F 2 "" H 6150 14500 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 6150 14500 50  0001 C CNN
-	3    6150 14500
+	2    6150 14500
 	1    0    0    1   
 $EndComp
 Text Label 5250 2600 0    50   ~ 0
