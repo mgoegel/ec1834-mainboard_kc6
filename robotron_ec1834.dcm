@@ -231,6 +231,10 @@ K 8255 PPI
 F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
 $ENDCMP
 #
+$CMP U2164
+D DRAM 64K x 1 bit
+$ENDCMP
+#
 $CMP U2764
 D 8K × 8 bit UV-löschbarer Festwertspeicher (EPROM)
 K EPROM

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L robotron_ec1834:U2764 d101
+L robotron_ec1834:U2764 D101
 U 1 1 6321634A
 P 2650 2450
-F 0 "d101" H 2600 3459 50  0000 C CNN
+F 0 "D101" H 2600 3459 50  0000 C CNN
 F 1 "U2764" H 2600 3376 39  0000 C CNN
 F 2 "" H 2650 3450 50  0001 C CNN
 F 3 "" H 2650 3450 50  0001 C CNN
@@ -368,23 +368,23 @@ $EndComp
 $Comp
 L RFT_Digitalschaltkreise:DL008D D70
 U 1 1 6324C1C0
-P 11900 8450
-F 0 "D70" H 11900 8767 50  0000 C CNN
-F 1 "DL008D" H 11900 8676 50  0000 C CNN
-F 2 "" H 11900 8450 50  0001 C CNN
-F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 11900 8450 50  0001 C CNN
-	1    11900 8450
+P 11900 8400
+F 0 "D70" H 11900 8717 50  0000 C CNN
+F 1 "DL008D" H 11900 8626 50  0000 C CNN
+F 2 "" H 11900 8400 50  0001 C CNN
+F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 11900 8400 50  0001 C CNN
+	1    11900 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L RFT_Digitalschaltkreise:DL008D D70
 U 2 1 6324CD21
-P 11900 8900
-F 0 "D70" H 11900 9217 50  0000 C CNN
-F 1 "DL008D" H 11900 9126 50  0000 C CNN
-F 2 "" H 11900 8900 50  0001 C CNN
-F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 11900 8900 50  0001 C CNN
-	2    11900 8900
+P 11900 8950
+F 0 "D70" H 11900 9267 50  0000 C CNN
+F 1 "DL008D" H 11900 9176 50  0000 C CNN
+F 2 "" H 11900 8950 50  0001 C CNN
+F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 11900 8950 50  0001 C CNN
+	2    11900 8950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -804,5 +804,421 @@ F 2 "Package_DIP:DIP-24_W15.24mm" H 9150 9900 50  0001 C CNN
 F 3 "http://download.intel.com/design/archives/periphrl/docs/23124406.pdf" H 10750 11350 50  0001 C CNN
 	1    11200 10350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW1
+U 1 1 632E7155
+P 10350 12850
+F 0 "SW1" H 10350 13517 50  0000 C CNN
+F 1 "SW_DIP_x08" H 10350 13426 50  0000 C CNN
+F 2 "" H 10350 12850 50  0001 C CNN
+F 3 "~" H 10350 12850 50  0001 C CNN
+	1    10350 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 R23
+U 1 1 632EDCBC
+P 11300 13450
+F 0 "R23" H 10821 13404 50  0000 R CNN
+F 1 "4k7" H 10821 13495 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 11875 13450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 11300 13450 50  0001 C CNN
+	1    11300 13450
+	1    0    0    1   
+$EndComp
+NoConn ~ 11700 13250
+$Comp
+L Device:R_Network09_Split R12
+U 3 1 633D8102
+P 3050 13050
+F 0 "R12" V 3286 13042 50  0000 C CNN
+F 1 "4k7" V 3195 13042 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 2970 13050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3050 13050 50  0001 C CNN
+	3    3050 13050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network09_Split R?
+U 1 1 633E849A
+P 19350 11050
+AR Path="/631598DA/633E849A" Ref="R?"  Part="1" 
+AR Path="/6315BFF5/633E849A" Ref="R12"  Part="1" 
+F 0 "R12" V 19575 11050 50  0000 C CNN
+F 1 "4k7" V 19484 11050 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 19270 11050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 19350 11050 50  0001 C CNN
+	1    19350 11050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network09_Split R?
+U 4 1 633F519D
+P 8700 8700
+AR Path="/631598DA/633F519D" Ref="R?"  Part="4" 
+AR Path="/6315BFF5/633F519D" Ref="R12"  Part="4" 
+F 0 "R12" V 8936 8692 50  0000 C CNN
+F 1 "4k7" V 8845 8692 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 8620 8700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8700 8700 50  0001 C CNN
+	4    8700 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network05_Split R?
+U 1 1 634532B9
+P 1550 4800
+AR Path="/631598DA/634532B9" Ref="R?"  Part="1" 
+AR Path="/6315BFF5/634532B9" Ref="R11"  Part="1" 
+F 0 "R11" H 1638 4846 50  0000 L CNN
+F 1 "1k" H 1638 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 1470 4800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1550 4800 50  0001 C CNN
+	1    1550 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network05_Split R?
+U 2 1 634532BF
+P 3400 14200
+AR Path="/631598DA/634532BF" Ref="R?"  Part="2" 
+AR Path="/6315BFF5/634532BF" Ref="R11"  Part="2" 
+F 0 "R11" H 3499 14238 50  0000 L CNN
+F 1 "1k" H 3499 14147 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 3320 14200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3400 14200 50  0001 C CNN
+	2    3400 14200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 R41
+U 1 1 63494142
+P 9150 2650
+F 0 "R41" V 8533 2650 50  0000 C CNN
+F 1 "4k7" V 8624 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 9625 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9150 2650 50  0001 C CNN
+	1    9150 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 R40
+U 1 1 63499BA8
+P 7250 2650
+F 0 "R40" V 6633 2650 50  0000 C CNN
+F 1 "4k7" V 6724 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 7725 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7250 2650 50  0001 C CNN
+	1    7250 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 634A04E5
+P 3700 6850
+F 0 "R17" V 3493 6850 50  0000 C CNN
+F 1 "4k7" V 3584 6850 50  0000 C CNN
+F 2 "" V 3630 6850 50  0001 C CNN
+F 3 "~" H 3700 6850 50  0001 C CNN
+	1    3700 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 2 1 634BA668
+P 12300 6000
+F 0 "R52" H 12399 6038 50  0000 L CNN
+F 1 "3k9" H 12399 5947 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12220 6000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12300 6000 50  0001 C CNN
+	2    12300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 3 1 634BA918
+P 12350 4800
+F 0 "R52" V 12586 4792 50  0000 C CNN
+F 1 "3k9" V 12495 4792 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12270 4800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12350 4800 50  0001 C CNN
+	3    12350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 4 1 634BC363
+P 12450 8800
+F 0 "R52" V 12686 8792 50  0000 C CNN
+F 1 "3k9" V 12595 8792 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12370 8800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12450 8800 50  0001 C CNN
+	4    12450 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 5 1 634BD942
+P 12450 8350
+F 0 "R52" V 12686 8342 50  0000 C CNN
+F 1 "3k9" V 12595 8342 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12370 8350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12450 8350 50  0001 C CNN
+	5    12450 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 6 1 634BEFE1
+P 12000 7300
+F 0 "R52" V 12236 7292 50  0000 C CNN
+F 1 "3k9" V 12145 7292 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 11920 7300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12000 7300 50  0001 C CNN
+	6    12000 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network07_Split R52
+U 7 1 634C095F
+P 7100 5450
+F 0 "R52" H 7199 5488 50  0000 L CNN
+F 1 "3k9" H 7199 5397 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7020 5450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7100 5450 50  0001 C CNN
+	7    7100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R14
+U 1 1 6348AAB1
+P 12750 3600
+F 0 "R14" V 12800 3900 50  0000 C CNN
+F 1 "30" V 12750 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 3600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 3600 50  0001 C CNN
+	1    12750 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R14
+U 2 1 6348C79E
+P 12750 3400
+F 0 "R14" V 12800 3700 50  0000 C CNN
+F 1 "30" V 12750 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 3400 50  0001 C CNN
+	2    12750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R14
+U 3 1 6348DDD5
+P 12750 4000
+F 0 "R14" V 12800 4300 50  0000 C CNN
+F 1 "30" V 12750 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 4000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 4000 50  0001 C CNN
+	3    12750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R14
+U 4 1 6348F4F3
+P 12750 3800
+F 0 "R14" V 12700 3500 50  0000 C CNN
+F 1 "30" V 12750 3800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 3800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 3800 50  0001 C CNN
+	4    12750 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R15
+U 1 1 6349372B
+P 12750 1850
+F 0 "R15" V 12700 1550 50  0000 C CNN
+F 1 "30" V 12750 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 1850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 1850 50  0001 C CNN
+	1    12750 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R15
+U 2 1 63494C47
+P 12750 1650
+F 0 "R15" V 12700 1350 50  0000 C CNN
+F 1 "30" V 12750 1650 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 1650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 1650 50  0001 C CNN
+	2    12750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R15
+U 4 1 63494C5B
+P 12750 2050
+F 0 "R15" V 12700 1750 50  0000 C CNN
+F 1 "30" V 12750 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 2050 50  0001 C CNN
+	4    12750 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R15
+U 3 1 63494C51
+P 12750 2250
+F 0 "R15" V 12700 2550 50  0000 C CNN
+F 1 "30" V 12750 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 12670 2250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 2250 50  0001 C CNN
+	3    12750 2250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R16
+U 1 1 634ACBBD
+P 13500 8450
+F 0 "R16" V 13550 8750 50  0000 C CNN
+F 1 "30" V 13500 8450 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 13420 8450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13500 8450 50  0001 C CNN
+	1    13500 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R16
+U 2 1 634AE149
+P 13500 8900
+F 0 "R16" V 13550 9200 50  0000 C CNN
+F 1 "30" V 13500 8900 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 13420 8900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13500 8900 50  0001 C CNN
+	2    13500 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R16
+U 3 1 634AE153
+P 13500 5100
+F 0 "R16" V 13550 5400 50  0000 C CNN
+F 1 "30" V 13500 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 13420 5100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13500 5100 50  0001 C CNN
+	3    13500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split R16
+U 4 1 634AE15D
+P 13500 6400
+F 0 "R16" V 13450 6700 50  0000 C CNN
+F 1 "30" V 13500 6400 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 13420 6400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13500 6400 50  0001 C CNN
+	4    13500 6400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 634B4EE1
+P 13500 7400
+F 0 "R18" V 13293 7400 50  0000 C CNN
+F 1 "30" V 13384 7400 50  0000 C CNN
+F 2 "" V 13430 7400 50  0001 C CNN
+F 3 "~" H 13500 7400 50  0001 C CNN
+	1    13500 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 634BBA43
+P 10200 14500
+F 0 "R24" V 10300 14700 50  0000 C CNN
+F 1 "1k" V 10200 14500 50  0000 C CNN
+F 2 "" V 10130 14500 50  0001 C CNN
+F 3 "~" H 10200 14500 50  0001 C CNN
+	1    10200 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 634BD4F3
+P 9950 14500
+F 0 "R25" V 10050 14700 50  0000 C CNN
+F 1 "1k" V 9950 14500 50  0000 C CNN
+F 2 "" V 9880 14500 50  0001 C CNN
+F 3 "~" H 9950 14500 50  0001 C CNN
+	1    9950 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 634C1DDB
+P 17950 10750
+F 0 "R22" V 18050 10750 50  0000 C CNN
+F 1 "130" V 17950 10750 50  0000 C CNN
+F 2 "" V 17880 10750 50  0001 C CNN
+F 3 "~" H 17950 10750 50  0001 C CNN
+	1    17950 10750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 634C34E8
+P 18450 10500
+F 0 "R32" V 18550 10500 50  0000 C CNN
+F 1 "1k" V 18450 10500 50  0000 C CNN
+F 2 "" V 18380 10500 50  0001 C CNN
+F 3 "~" H 18450 10500 50  0001 C CNN
+	1    18450 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 634C3A5E
+P 18100 11500
+F 0 "R30" V 18200 11500 50  0000 C CNN
+F 1 "30" V 18100 11500 50  0000 C CNN
+F 2 "" V 18030 11500 50  0001 C CNN
+F 3 "~" H 18100 11500 50  0001 C CNN
+	1    18100 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 634C43CA
+P 18450 12450
+F 0 "R31" V 18550 12450 50  0000 C CNN
+F 1 "30" V 18450 12450 50  0000 C CNN
+F 2 "" V 18380 12450 50  0001 C CNN
+F 3 "~" H 18450 12450 50  0001 C CNN
+	1    18450 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 634C49D9
+P 18750 12750
+F 0 "R33" V 18850 12750 50  0000 C CNN
+F 1 "1k" V 18750 12750 50  0000 C CNN
+F 2 "" V 18680 12750 50  0001 C CNN
+F 3 "~" H 18750 12750 50  0001 C CNN
+	1    18750 12750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 634C5310
+P 19350 10500
+F 0 "R4" V 19450 10500 50  0000 C CNN
+F 1 "1k" V 19350 10500 50  0000 C CNN
+F 2 "" V 19280 10500 50  0001 C CNN
+F 3 "~" H 19350 10500 50  0001 C CNN
+	1    19350 10500
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

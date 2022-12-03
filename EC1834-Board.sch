@@ -43,4 +43,6 @@ U 63239FAE
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
+Text Notes 19200 6150 0    118  ~ 0
+R52 - KWH 3936, \nWiderstandsarray mit gemeinsamen \nPin 8 getauscht gegen RN mit gemeinsamen Pin 1!\n
 $EndSCHEMATC

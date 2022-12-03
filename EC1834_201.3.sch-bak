@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "EC1834 201.3 RAM"
 Date "2022-09-05"
 Rev ""
@@ -753,13 +753,13 @@ F 3 "" H 6050 3300 50  0001 C CNN
 $EndComp
 $Comp
 L robotron_ec1834:KR531LI1 D90
-U 3 1 6322F280
+U 2 1 6322F280
 P 6150 14500
 F 0 "D90" H 6150 14550 50  0000 C CNN
 F 1 "KR531LI1" H 6200 14300 50  0000 C CNN
 F 2 "" H 6150 14500 50  0001 C CNN
 F 3 "https://www-user.tu-chemnitz.de/~heha/basteln/Konsumg%C3%BCter/DDR-Halbleiter/dl008.gif" H 6150 14500 50  0001 C CNN
-	3    6150 14500
+	2    6150 14500
 	1    0    0    1   
 $EndComp
 Text Label 5250 2600 0    50   ~ 0
@@ -3637,10 +3637,6 @@ Connection ~ 7500 13500
 Wire Wire Line
 	7500 13500 5700 13500
 Wire Wire Line
-	7950 13500 8200 13500
-Wire Wire Line
-	8200 13500 8200 13850
-Wire Wire Line
 	8200 13850 8300 13850
 Wire Wire Line
 	8300 13850 8300 14700
@@ -3648,7 +3644,6 @@ Wire Wire Line
 	8300 14700 6600 14700
 Wire Wire Line
 	6600 14700 6600 15400
-Connection ~ 8200 13850
 Wire Wire Line
 	4700 13250 4800 13250
 Connection ~ 4700 13250
@@ -3823,6 +3818,45 @@ Wire Bus Line
 	1000 15100 1000 15500
 NoConn ~ 8200 14350
 NoConn ~ 4600 14450
+Text Label 6000 13350 0    47   ~ 0
+MDPEA
+Wire Wire Line
+	8300 13500 8300 13850
+Wire Wire Line
+	7950 13500 8300 13500
+Connection ~ 8300 13850
+Text Label 8250 11350 2    47   ~ 0
+MD7
+Text Label 8250 10000 2    47   ~ 0
+MD6
+Text Label 8250 8650 2    47   ~ 0
+MD5
+Text Label 8250 7300 2    47   ~ 0
+MD4
+Text Label 8250 5950 2    47   ~ 0
+MD3
+Text Label 8250 4600 2    47   ~ 0
+MD2
+Text Label 8250 3250 2    47   ~ 0
+MD1
+Text Label 8250 1850 2    47   ~ 0
+MD0
+Text Label 6500 11150 2    47   ~ 0
+MD7
+Text Label 6500 9800 2    47   ~ 0
+MD6
+Text Label 6500 8450 2    47   ~ 0
+MD5
+Text Label 6500 7100 2    47   ~ 0
+MD4
+Text Label 6500 5750 2    47   ~ 0
+MD3
+Text Label 6500 4400 2    47   ~ 0
+MD2
+Text Label 6500 3050 2    47   ~ 0
+MD1
+Text Label 6500 1700 2    47   ~ 0
+MD0
 Wire Bus Line
 	1000 15500 6750 15500
 Wire Bus Line
@@ -3837,6 +3871,4 @@ Wire Bus Line
 	3300 1100 3300 13150
 Wire Bus Line
 	6850 1100 6850 13150
-Text Label 6000 13350 0    47   ~ 0
-MDPEA
 $EndSCHEMATC
