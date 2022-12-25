@@ -13,11 +13,11 @@
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 2fbe7b6e-8998-404b-8c3a-9a6665bd6420)
   )
-  (text "Seite 2" (at 95.25 330.2 0)
+  (text "Seite 2 / 201.2" (at 95.25 330.2 0)
     (effects (font (size 10.2616 10.2616)) (justify left bottom))
     (uuid 513ca45c-19a3-44ed-b224-869a06ac4e4e)
   )
-  (text "Seite 1" (at 93.98 161.29 0)
+  (text "Seite 1 / 201.1" (at 93.98 161.29 0)
     (effects (font (size 10.2616 10.2616)) (justify left bottom))
     (uuid a49a99ef-4073-4db3-adec-6bc388906947)
   )
@@ -30,7 +30,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-0000631598da)
-    (property "Sheet name" "1834 201.1" (id 0) (at 59.69 143.51 0)
+    (property "Sheet name" "EC1834 201.1" (id 0) (at 59.69 143.51 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
     (property "Sheet file" "EC1834_201.1.kicad_sch" (id 1) (at 58.42 286.3346 0)
@@ -74,12 +74,25 @@
     )
   )
 
+  (sheet (at 486.41 311.15) (size 187.96 127) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2621e93f-9492-4324-85d7-d8a41461acef)
+    (property "Sheet name" "Bus" (id 0) (at 486.41 308.5734 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheet file" "Bus.kicad_sch" (id 1) (at 486.41 438.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-0000631598da" (page "2"))
     (path "/00000000-0000-0000-0000-00006315bff5" (page "3"))
     (path "/00000000-0000-0000-0000-00006315c7dd" (page "4"))
     (path "/00000000-0000-0000-0000-000063239fae" (page "5"))
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef" (page "6"))
   )
 
   (symbol_instances
@@ -248,16 +261,28 @@
     (path "/00000000-0000-0000-0000-00006315bff5/cb0cf916-d3ac-4c04-b6f6-28ac49292338"
       (reference "#PWR0155") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/10041ad8-9d48-4e62-abd7-74d6b7f4a186"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063239fae/1ad366be-c0b4-4670-92a3-57a64865fb59"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/1d64b9fd-fa2b-4660-aa05-be23cff84176"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/27706a26-6d80-4b52-9821-e0d24d19bdcf"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/277e620a-972d-4358-a47d-38d5156bdfa7"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006315bff5/28671eb4-6e6f-4783-97bc-96618ceb8475"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/2eb61709-0182-4b7b-8894-23c4f41ab3d4"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/4393e511-4f4d-449c-a331-4299fd24ad9e"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/478f6845-d356-4e8e-ab69-28eeca7ef06a"
@@ -269,7 +294,16 @@
     (path "/00000000-0000-0000-0000-000063239fae/55f52a86-1bed-4cc6-968d-96e9bf220764"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/57550d9c-1283-4423-8cc9-55182ca36599"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/6665c672-b09d-4a88-a45a-1aaf13a642f1"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006315bff5/6b01c859-0302-496e-92f6-e3b4c047ea9b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/6b0a66f3-62b4-4ecc-be47-e5d0b6467c51"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/7c121de2-f214-466d-8a3f-1f8c0a680b52"
@@ -278,8 +312,14 @@
     (path "/00000000-0000-0000-0000-000063239fae/7c4d5051-feac-4979-8537-00f1fd0c5d57"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/7d343180-3f32-4b2e-bb8e-f9c603f0b500"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063239fae/81a9a8c1-2532-474f-8576-8bc2a1738ece"
       (reference "#PWR?") (unit 1) (value "+5P") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/8e6c7124-b5d0-40f7-ac75-27b963b4795a"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/995bc919-d9a7-4b48-a6e7-99f0b7092857"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -287,8 +327,17 @@
     (path "/00000000-0000-0000-0000-00006315bff5/9b61d775-8ba2-4000-abf8-272f1bf893ea"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/a144c649-d9d3-4f1a-8943-ce229c38c97f"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063239fae/a48a5dc2-0673-4eb0-94f2-e7dd99897d48"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/b47f1acf-3504-4fe9-9e07-2fd3e3ddf482"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/b5b268e8-5648-4449-b619-1a03e6f77604"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/bdfd7519-0902-481d-9dc0-5aeacad6c76e"
       (reference "#PWR?") (unit 1) (value "+5P") (footprint "")
@@ -299,11 +348,23 @@
     (path "/00000000-0000-0000-0000-000063239fae/cde5de8d-baa6-4888-b5af-46c9d1b97f39"
       (reference "#PWR?") (unit 1) (value "+5P") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/d5786d28-78f5-40f0-80e8-328b9ca47715"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/ddb6ecac-9d78-4d52-887d-2d8efc76f3f7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063239fae/e6056537-8972-4866-83a1-3d5bf8a7eae5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/fdc54af0-960b-43c4-88bd-0783c4c951f0"
       (reference "#PWR?") (unit 1) (value "+5P") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/febd5701-90a8-42c0-a141-eb7b4c12998a"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/1447c0b1-b561-4dcf-8efc-79f3985ecbf0"
+      (reference "BR1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ca7a5e"
       (reference "Br2") (unit 1) (value "Br2") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
@@ -1433,6 +1494,9 @@
     (path "/00000000-0000-0000-0000-0000631598da/bd5f75c0-8efa-4696-a80c-2502691d8fc1"
       (reference "E2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/81e2826e-9d30-419d-95f6-9202ddc08e1d"
+      (reference "E4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000631598da/67dabe48-ed98-4de7-b8d4-1298c34fe516"
       (reference "E5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
     )
@@ -1811,6 +1875,9 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f33de"
       (reference "K126") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/6e649ed7-ebd8-46aa-ab73-a48e6dadc53e"
+      (reference "L1") (unit 1) (value "L_Ferrite_Coupled_Small_15263748") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000631598da/f5a4aced-2c9e-4c1c-8aa0-ab9b7dc51401"
       (reference "PS1") (unit 1) (value "Conn_01x03") (footprint "")
     )
@@ -2093,6 +2160,12 @@
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000634c095f"
       (reference "R52") (unit 7) (value "3k9") (footprint "Resistor_THT:R_Array_SIP8")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/57a5a69e-1936-4338-88f2-292fb2650d2d"
+      (reference "R53") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/e02aaecd-9cdd-44d9-bcad-bf17d9f3357f"
+      (reference "R54") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632e7155"
       (reference "SW1") (unit 1) (value "SW_DIP_x08") (footprint "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm")
     )
@@ -2135,14 +2208,50 @@
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000637ebef3"
       (reference "WD3") (unit 1) (value "WD3") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/ac82a8c9-65eb-48cf-b2e3-c91c3de61da7"
+      (reference "WD4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/d03809af-e2af-4c9d-800c-e16a97a7edfe"
+      (reference "WD5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/c5f946bf-eb50-4a9f-b24c-014fe8189477"
+      (reference "X1.1") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/0aa2e7ef-ed86-4116-b77c-5a5a66fbfd00"
+      (reference "X1.2") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/bd18f1e7-d5e9-430e-b0b0-88eb3031d547"
+      (reference "X1.3") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/2feb44df-3f1a-4347-ac25-09b34fc372a8"
+      (reference "X1.4") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/2e8852c8-1cdf-4d25-a0ab-fc2817b2b110"
+      (reference "X1.5") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/8d2551bd-4d97-42f5-a771-50f0ac5b6110"
+      (reference "X1.6") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/3146b7dd-4140-42b6-b086-4fc5d90c8298"
+      (reference "X1.7") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/2093a1d0-ae0b-4015-9d82-d8e967be9094"
+      (reference "X1.8") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
+    )
     (path "/00000000-0000-0000-0000-000063239fae/b499c4a4-fca4-4cd3-b7c4-9723ed41c476"
       (reference "X2") (unit 1) (value "Conn_01x06") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063239fae/9aad3b93-6b86-44db-a9e1-50a999012a1d"
       (reference "X3") (unit 1) (value "Conn_01x08") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006315bff5/198d518b-45b4-49f1-a245-82273e089c60"
+      (reference "X4") (unit 1) (value "Lautsprecher") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000631598da/bc4a4052-ddde-4942-81a1-196284c92344"
       (reference "X6") (unit 1) (value "Conn_02x01") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006315bff5/0f15c498-48ac-4984-86d1-8d691a108101"
+      (reference "X7") (unit 1) (value "DB9_Female") (footprint "")
     )
   )
 )

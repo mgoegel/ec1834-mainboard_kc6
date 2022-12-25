@@ -7592,7 +7592,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3811f170-6f64-4ae7-b3b4-4baca55d3e69)
   )
-  (label "{MD[0..15]}" (at 80.01 19.05 0)
+  (label "MD[0..15]" (at 80.01 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 389e8fa6-104f-419e-932c-498f996afe7b)
   )
