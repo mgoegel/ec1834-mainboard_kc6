@@ -322,6 +322,7 @@
   )
 
 
+
   (symbol (lib_id "robotron_ec1834:BUS_EC1834_16Bit") (at 85.09 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0aa2e7ef-ed86-4116-b77c-5a5a66fbfd00)
