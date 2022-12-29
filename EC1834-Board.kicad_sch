@@ -2,288 +2,371 @@
 
   (uuid bbd6417a-5f3d-4c8e-910d-4ce325bd4790)
 
-  (paper "A0")
+  (paper "A1")
+
+  (title_block
+    (title "EC1834 Hauptplatine")
+    (date "2022-09-12")
+    (rev "1")
+    (company "Mario Gögel 2022")
+  )
 
   (lib_symbols
   )
 
-  (junction (at 254 364.49) (diameter 0) (color 0 0 0 0)
+  (junction (at 271.78 304.8) (diameter 0) (color 0 0 0 0)
+    (uuid 01a3f148-2773-4da2-85aa-e30995790332)
+  )
+  (junction (at 256.54 300.99) (diameter 0) (color 0 0 0 0)
+    (uuid 5e9c4ef6-3bf9-41e9-9066-f6f00192cf53)
+  )
+  (junction (at 302.26 365.76) (diameter 0) (color 0 0 0 0)
     (uuid 66347051-59b8-4960-9f0e-6d3282b135e0)
   )
-  (junction (at 252.73 394.97) (diameter 0) (color 0 0 0 0)
+  (junction (at 304.8 298.45) (diameter 0) (color 0 0 0 0)
+    (uuid 816f6cb8-2305-4c4a-9a27-1aba535c169d)
+  )
+  (junction (at 300.99 396.24) (diameter 0) (color 0 0 0 0)
     (uuid bc0cae55-ca75-4168-bc62-ad69c573a3c9)
   )
-  (junction (at 256.54 247.65) (diameter 0) (color 0 0 0 0)
+  (junction (at 304.8 248.92) (diameter 0) (color 0 0 0 0)
     (uuid c0679684-fec3-461f-aac5-81832102f01a)
   )
 
-  (bus (pts (xy 241.3 379.73) (xy 256.54 379.73))
+  (bus (pts (xy 289.56 381) (xy 304.8 381))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 04fac82c-e8c2-44a0-8fe6-3b78d2c149f5)
   )
-  (bus (pts (xy 229.87 285.75) (xy 229.87 311.15))
+  (bus (pts (xy 278.13 287.02) (xy 278.13 312.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 076fbf4e-2cd3-4a47-ac9d-4d1626fcf93d)
   )
-  (bus (pts (xy 257.81 195.58) (xy 257.81 383.54))
+  (bus (pts (xy 306.07 196.85) (xy 306.07 384.81))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0a467f82-859f-4def-9caf-0806fe8feb73)
   )
-  (bus (pts (xy 241.3 387.35) (xy 259.08 387.35))
+  (bus (pts (xy 289.56 388.62) (xy 307.34 388.62))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0c14aa1e-6be5-47ed-90da-e6cdc064cec9)
   )
+  (bus (pts (xy 304.8 298.45) (xy 304.8 248.92))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 13311997-1fdc-4bbb-8557-261522af872d)
+  )
 
-  (wire (pts (xy 252.73 270.51) (xy 252.73 394.97))
+  (wire (pts (xy 300.99 271.78) (xy 300.99 396.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 153f349a-c606-444f-9748-2aa7435770f2)
   )
-  (wire (pts (xy 241.3 364.49) (xy 254 364.49))
+  (wire (pts (xy 289.56 365.76) (xy 302.26 365.76))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 177e397a-a54e-40dc-8d3c-973eeaf82c1f)
   )
-  (bus (pts (xy 256.54 247.65) (xy 256.54 191.77))
+  (bus (pts (xy 304.8 248.92) (xy 304.8 193.04))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 191c9005-4956-46a8-8bfe-02de374c5a95)
   )
-  (bus (pts (xy 223.52 285.75) (xy 223.52 311.15))
+  (bus (pts (xy 519.43 341.63) (xy 534.67 341.63))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 24c52cd6-eaa8-4e8a-b6fd-f795b43c610f)
+  )
+  (bus (pts (xy 271.78 287.02) (xy 271.78 304.8))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2b635b55-bd02-42b7-af23-3c6cca2dc4c9)
   )
-  (bus (pts (xy 256.54 379.73) (xy 256.54 247.65))
+  (bus (pts (xy 256.54 300.99) (xy 515.62 300.99))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 54dff065-334d-43ba-9a9f-e1d2189c5d1d)
+  )
+  (bus (pts (xy 304.8 381) (xy 304.8 298.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6927aa63-19b6-4d63-9141-035513d1acdb)
   )
+  (bus (pts (xy 515.62 300.99) (xy 515.62 353.06))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7023ca15-59dc-44c4-808d-94b60411b498)
+  )
 
-  (wire (pts (xy 241.3 394.97) (xy 252.73 394.97))
+  (wire (pts (xy 289.56 396.24) (xy 300.99 396.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 70297132-d0df-45a0-a520-2015c75ebdd3)
   )
-  (wire (pts (xy 236.22 270.51) (xy 252.73 270.51))
+  (bus (pts (xy 256.54 300.99) (xy 256.54 312.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 744aae2b-2cb2-4a8e-9ec7-a277e8da8262)
+  )
+
+  (wire (pts (xy 284.48 271.78) (xy 300.99 271.78))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7f82c3f1-db76-44db-bf1b-edba1161b383)
   )
-  (wire (pts (xy 254 266.7) (xy 254 364.49))
+  (wire (pts (xy 302.26 267.97) (xy 302.26 365.76))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7fe977ff-328a-4676-b89c-db76c76e32dc)
   )
-  (wire (pts (xy 252.73 394.97) (xy 266.7 394.97))
+  (bus (pts (xy 304.8 298.45) (xy 519.43 298.45))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8099090f-6467-41e4-9913-41bf4fc626ed)
+  )
+
+  (wire (pts (xy 300.99 396.24) (xy 314.96 396.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 82c1d0da-5f4f-49b5-b9ca-7ebb6af54a53)
   )
-  (wire (pts (xy 254 364.49) (xy 266.7 364.49))
+  (bus (pts (xy 519.43 298.45) (xy 519.43 341.63))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8776e512-f3ee-434a-9583-2adbee0fc79f)
+  )
+
+  (wire (pts (xy 302.26 365.76) (xy 314.96 365.76))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 90220b15-1f30-4edc-806b-987690e7e2df)
   )
-  (bus (pts (xy 256.54 191.77) (xy 266.7 191.77))
+  (bus (pts (xy 547.37 304.8) (xy 547.37 312.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 916184c4-cfff-4ab2-8ee3-6bca4ff576de)
+  )
+  (bus (pts (xy 271.78 304.8) (xy 547.37 304.8))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9b9d8ec7-0205-4816-bf15-025e5b076440)
+  )
+  (bus (pts (xy 304.8 193.04) (xy 314.96 193.04))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a98483dc-c692-4bf4-bb5e-32901870618f)
   )
-  (bus (pts (xy 266.7 195.58) (xy 257.81 195.58))
+  (bus (pts (xy 314.96 196.85) (xy 306.07 196.85))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bbb54e96-3fee-4848-ab72-2e8c3534c11c)
   )
-  (bus (pts (xy 259.08 387.35) (xy 259.08 198.12))
+  (bus (pts (xy 307.34 388.62) (xy 307.34 199.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bf3a4ab9-e4c4-47a4-8005-7560af93b09a)
   )
-  (bus (pts (xy 259.08 198.12) (xy 266.7 198.12))
+  (bus (pts (xy 307.34 199.39) (xy 314.96 199.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c3011be0-6e4b-47d9-a7b2-623ffc1891cc)
   )
 
-  (wire (pts (xy 236.22 266.7) (xy 254 266.7))
+  (wire (pts (xy 284.48 267.97) (xy 302.26 267.97))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c5d182ec-4b53-4fac-a1d7-5a785046c5c8)
   )
-  (wire (pts (xy 182.88 285.75) (xy 182.88 311.15))
+  (wire (pts (xy 231.14 287.02) (xy 231.14 312.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cd5b4046-e5a5-4ec8-bca9-547d990a2c9d)
   )
-  (bus (pts (xy 208.28 285.75) (xy 208.28 311.15))
+  (bus (pts (xy 256.54 287.02) (xy 256.54 300.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d8f21e6c-f2b9-4608-898d-214d2b4045ac)
   )
-  (bus (pts (xy 257.81 383.54) (xy 241.3 383.54))
+  (bus (pts (xy 306.07 384.81) (xy 289.56 384.81))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e8b23031-5bf0-4ced-824e-39b72166a86e)
   )
-  (bus (pts (xy 236.22 247.65) (xy 256.54 247.65))
+  (bus (pts (xy 284.48 248.92) (xy 304.8 248.92))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e8e0f8ad-5f68-4759-81fc-4db0b87aeb61)
   )
-  (bus (pts (xy 201.93 285.75) (xy 201.93 311.15))
+  (bus (pts (xy 515.62 353.06) (xy 534.67 353.06))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f74cd9f8-292f-418d-9902-6166b3e7a066)
+  )
+  (bus (pts (xy 271.78 304.8) (xy 271.78 312.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fcec570c-83b1-426c-825b-09ade46c9c51)
+  )
+  (bus (pts (xy 250.19 287.02) (xy 250.19 312.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ff8f4bc3-1cb7-468a-8033-f0ba41a4701f)
   )
 
+  (text "Seite 5 - BUS" (at 580.39 383.54 0)
+    (effects (font (size 10.2616 10.2616)) (justify left bottom))
+    (uuid 20826fcf-77b1-4279-ab4d-63a57130bc73)
+  )
   (text "R52 - KWH 3936, \nWiderstandsarray mit gemeinsamen \nPin 8 getauscht gegen RN mit gemeinsamen Pin 1!\n"
-    (at 487.68 156.21 0)
+    (at 535.94 157.48 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 2fbe7b6e-8998-404b-8c3a-9a6665bd6420)
   )
-  (text "Seite 2 / 201.2" (at 85.09 354.33 0)
+  (text "    Seite 4\nStromversorgung" (at 349.25 354.33 0)
+    (effects (font (size 10.2616 10.2616)) (justify left bottom))
+    (uuid 495f6c7a-c3fe-40f9-96fd-6a6dcefbe90d)
+  )
+  (text "Seite 2 / 201.2" (at 133.35 355.6 0)
     (effects (font (size 10.2616 10.2616)) (justify left bottom))
     (uuid 513ca45c-19a3-44ed-b224-869a06ac4e4e)
   )
-  (text "Seite 1 / 201.1" (at 93.98 161.29 0)
+  (text "Seite 1 / 201.1" (at 142.24 162.56 0)
     (effects (font (size 10.2616 10.2616)) (justify left bottom))
     (uuid a49a99ef-4073-4db3-adec-6bc388906947)
   )
-  (text "Seite 3 - RAM" (at 297.18 161.29 0)
+  (text "Seite 3 - RAM" (at 345.44 162.56 0)
     (effects (font (size 10.2616 10.2616)) (justify left bottom))
     (uuid ac160887-93c0-4d8e-abf5-f05e55ff4e8f)
   )
 
-  (sheet (at 58.42 144.78) (size 177.8 140.97)
+  (sheet (at 106.68 146.05) (size 177.8 140.97)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-0000631598da)
-    (property "Sheet name" "EC1834 201.1" (id 0) (at 59.69 143.51 0)
+    (property "Sheet name" "EC1834 201.1" (id 0) (at 107.95 144.78 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "EC1834_201.1.kicad_sch" (id 1) (at 58.42 286.3346 0)
+    (property "Sheet file" "EC1834_201.1.kicad_sch" (id 1) (at 106.68 287.6046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "D[0..15]" input (at 223.52 285.75 270)
+    (pin "D[0..15]" input (at 271.78 287.02 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 600be401-34de-44bf-ad07-a1687c9de6fe)
     )
-    (pin "{A[0..19] VA0 ~{BHE}}" input (at 208.28 285.75 270)
+    (pin "{A[0..19] VA0 ~{BHE}}" input (at 256.54 287.02 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 88ebbade-3c38-4a29-90bc-23dd310896ac)
     )
-    (pin "XA[0..19]" input (at 229.87 285.75 270)
+    (pin "XA[0..19]" input (at 278.13 287.02 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7d7bc088-b8b8-4d8c-a185-39f479722db7)
     )
-    (pin "XD[0..15]" input (at 201.93 285.75 270)
+    (pin "XD[0..15]" input (at 250.19 287.02 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b350f813-bd07-46fe-a471-5ceed021e7fb)
     )
-    (pin "PS1:4" input (at 182.88 285.75 270)
+    (pin "PS1:4" input (at 231.14 287.02 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 80b203ed-f793-4fa8-820f-b05fa35a9fcc)
     )
-    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV}}" input (at 236.22 247.65 0)
+    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV}}" input (at 284.48 248.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ac8b8c68-f933-47a8-a2c5-460aca773f1e)
     )
-    (pin "5PW2" input (at 236.22 266.7 0)
+    (pin "5PW2" input (at 284.48 267.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5d3c96f3-12d0-4158-b028-a286f3c07829)
     )
-    (pin "5PW1" input (at 236.22 270.51 0)
+    (pin "5PW1" input (at 284.48 271.78 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 15419498-b757-4517-b1e8-a231ac933295)
     )
   )
 
-  (sheet (at 59.69 311.15) (size 181.61 127) (fields_autoplaced)
+  (sheet (at 107.95 312.42) (size 181.61 127) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00006315bff5)
-    (property "Sheet name" "EC1834 201.2" (id 0) (at 59.69 308.5734 0)
+    (property "Sheet name" "EC1834 201.2" (id 0) (at 107.95 309.8434 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "EC1834_201.2.kicad_sch" (id 1) (at 59.69 438.7346 0)
+    (property "Sheet file" "EC1834_201.2.kicad_sch" (id 1) (at 107.95 440.0046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV}}" input (at 241.3 379.73 0)
+    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV}}" input (at 289.56 381 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6f10e1e5-1641-4736-b573-158d4b516c63)
     )
-    (pin "XA[0..19]" input (at 229.87 311.15 90)
+    (pin "XA[0..19]" input (at 278.13 312.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 727dc196-8cd9-433d-beeb-7ee6d9ce0629)
     )
-    (pin "D[0..15]" input (at 223.52 311.15 90)
+    (pin "D[0..15]" input (at 271.78 312.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f6f8eba9-57a6-4ac4-a4dc-b6b5a1270450)
     )
-    (pin "A[0..19]" input (at 208.28 311.15 90)
+    (pin "{A[0..19] VA0 ~{BHE}}" input (at 256.54 312.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ad44b368-5ffb-43c5-876a-188b24e0db97)
     )
-    (pin "XD[0..15]" input (at 201.93 311.15 90)
+    (pin "XD[0..15]" input (at 250.19 312.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f31bed57-e5e7-4ee5-875e-67a94425da98)
     )
-    (pin "PS1:4" input (at 182.88 311.15 90)
+    (pin "PS1:4" input (at 231.14 312.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ac3f8313-f1fa-44f7-b830-d794791acc19)
     )
-    (pin "5PW2" bidirectional (at 241.3 394.97 0)
+    (pin "5PW2" bidirectional (at 289.56 396.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2c4ddc94-899d-4213-a6ed-f6b2fe3bc69b)
     )
-    (pin "MD[0..15]" input (at 241.3 383.54 0)
+    (pin "MD[0..15]" input (at 289.56 384.81 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3664ff18-82cd-4374-9a69-0da61c9aca6b)
     )
-    (pin "{MEM[0..8] ~{RAS0} ~{RAS1} ~{CASL} ~{CASH} ~{WE}}" input (at 241.3 387.35 0)
+    (pin "{MEM[0..8] ~{RAS0} ~{RAS1} ~{CASL} ~{CASH} ~{WE}}" input (at 289.56 388.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid fb21bdc1-b6f3-43c9-9da4-a7417a277870)
     )
-    (pin "5PW1" bidirectional (at 241.3 364.49 0)
+    (pin "5PW1" bidirectional (at 289.56 365.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1126c3cc-8e04-46cb-8ebf-08209a0edbbc)
     )
   )
 
-  (sheet (at 266.7 144.78) (size 190.5 140.97) (fields_autoplaced)
+  (sheet (at 314.96 146.05) (size 190.5 140.97) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00006315c7dd)
-    (property "Sheet name" "EC1834_201.3 RAM" (id 0) (at 266.7 142.2034 0)
+    (property "Sheet name" "EC1834_201.3 RAM" (id 0) (at 314.96 143.4734 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "EC1834_201.3.kicad_sch" (id 1) (at 266.7 286.3346 0)
+    (property "Sheet file" "EC1834_201.3.kicad_sch" (id 1) (at 314.96 287.6046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "{MEM[0..7] ~{WE} ~{RAS0} ~{RAS1} ~{CASL} ~{CASH}}" input (at 266.7 198.12 180)
+    (pin "{MEM[0..7] ~{WE} ~{RAS0} ~{RAS1} ~{CASL} ~{CASH}}" input (at 314.96 199.39 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 54c4f2cc-0276-4684-85df-6319498f3fc2)
     )
-    (pin "MD[0..15]" input (at 266.7 195.58 180)
+    (pin "MD[0..15]" input (at 314.96 196.85 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 33d85f2a-4d3b-4d11-8846-9a8b69b9e2b8)
     )
-    (pin "{~{MEMR} MEMR MDPOE MDPEE}" input (at 266.7 191.77 180)
+    (pin "{~{MEMR} MEMR MDPOE MDPEE}" input (at 314.96 193.04 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9c75f347-e294-4290-b172-a5a20c3c6b45)
     )
   )
 
-  (sheet (at 266.7 311.15) (size 190.5 125.73) (fields_autoplaced)
+  (sheet (at 314.96 312.42) (size 190.5 125.73) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000063239fae)
-    (property "Sheet name" "Power" (id 0) (at 266.7 308.5734 0)
+    (property "Sheet name" "Power" (id 0) (at 314.96 309.8434 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 266.7 437.4646 0)
+    (property "Sheet file" "Power.kicad_sch" (id 1) (at 314.96 438.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "5PW2" bidirectional (at 266.7 394.97 180)
+    (pin "5PW2" bidirectional (at 314.96 396.24 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c5e0f448-56cb-4573-8d43-f8c192771a13)
     )
-    (pin "5PW1" bidirectional (at 266.7 364.49 180)
+    (pin "5PW1" bidirectional (at 314.96 365.76 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bb611378-8d13-45d3-9b9a-2ab5ab1e5d40)
     )
   )
 
-  (sheet (at 486.41 311.15) (size 187.96 127) (fields_autoplaced)
+  (sheet (at 534.67 312.42) (size 187.96 127) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 2621e93f-9492-4324-85d7-d8a41461acef)
-    (property "Sheet name" "Bus" (id 0) (at 486.41 308.5734 0)
+    (property "Sheet name" "Bus" (id 0) (at 534.67 309.8434 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Bus.kicad_sch" (id 1) (at 486.41 438.7346 0)
+    (property "Sheet file" "Bus.kicad_sch" (id 1) (at 534.67 440.0046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "D[0..15]" input (at 547.37 312.42 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 806b1813-1ed7-4c98-a3eb-ff4c32ce3a1f)
+    )
+    (pin "{A[0..19] VA0 ~{BHE}}" input (at 534.67 353.06 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ba307b83-22ba-4d8d-bd9e-2e2d1347a49c)
+    )
+    (pin "{~{DACK0} ~{DACK1} ~{DACK2} ~{DACK3} ALE RESETDRV CLK ~{IOR} ~{IOW} ~{MEMR} ~{MEMW} AEN IOCHRDY ~{IOCHCK} ~{MASTER} ~{MEMCS16} DRQ0 DRQ1 DRQ2 DRQ3 TC IRQ3 IRQ4 IRQ5 IRQ6 IRQ7 IRQ2 IRQ10 IRQ11 IRQ14 IRQ15 OSC}" input (at 534.67 341.63 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 496ada6f-927e-497c-bf87-b34c1d6fbdfd)
     )
   )
 
@@ -600,8 +683,26 @@
     (path "/00000000-0000-0000-0000-000063239fae/fdc54af0-960b-43c4-88bd-0783c4c951f0"
       (reference "#PWR0201") (unit 1) (value "+5P") (footprint "")
     )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/d9e0ddfc-6330-470f-843c-d8a11dc75142"
+      (reference "#PWR0202") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/baab9572-bda6-4552-a4fd-613ad53fc2e6"
+      (reference "#PWR0203") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/cf853fdc-afe8-468f-81b3-4567d8502234"
+      (reference "#PWR0204") (unit 1) (value "-5V") (footprint "")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/45977202-1173-4f0b-8c06-8ef734d952cd"
+      (reference "#PWR0205") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/2621e93f-9492-4324-85d7-d8a41461acef/535ea7fc-cb35-44bf-8a3d-4d4e90784828"
+      (reference "#PWR0206") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063239fae/cf3b3504-6cdf-473a-b4fe-28a16b06ff06"
+      (reference "#PWR0207") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006315bff5/1447c0b1-b561-4dcf-8efc-79f3985ecbf0"
-      (reference "BR1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "BR1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ca7a5e"
       (reference "Br2") (unit 1) (value "Br2") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
@@ -709,19 +810,19 @@
       (reference "D1") (unit 1) (value "K1810WM87") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d10"
-      (reference "D2") (unit 1) (value "DS8282") (footprint "")
+      (reference "D2") (unit 1) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063281a76"
-      (reference "D2") (unit 2) (value "DS8282") (footprint "")
+      (reference "D2") (unit 2) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/858739d0-2114-4281-807e-5916cd7e49b3"
-      (reference "D3") (unit 1) (value "DL020D") (footprint "")
+      (reference "D3") (unit 1) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e8a"
-      (reference "D3") (unit 2) (value "DL020D") (footprint "")
+      (reference "D3") (unit 2) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063288462"
-      (reference "D3") (unit 3) (value "DL020D") (footprint "")
+      (reference "D3") (unit 3) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175cf8"
       (reference "D4") (unit 1) (value "KR1810WG88") (footprint "Package_DIP:DIP-20_W7.62mm")
@@ -730,346 +831,346 @@
       (reference "D4") (unit 2) (value "KR1810WG88") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063221fca"
-      (reference "D5") (unit 1) (value "DL030D") (footprint "")
+      (reference "D5") (unit 1) (value "DL030D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006328e62c"
-      (reference "D5") (unit 2) (value "DL030D") (footprint "")
+      (reference "D5") (unit 2) (value "DL030D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d34"
-      (reference "D6") (unit 1) (value "DL295") (footprint "")
+      (reference "D6") (unit 1) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329c0b5"
-      (reference "D6") (unit 2) (value "DL295") (footprint "")
+      (reference "D6") (unit 2) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e6c"
-      (reference "D7") (unit 1) (value "DL032D") (footprint "")
+      (reference "D7") (unit 1) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e90"
-      (reference "D7") (unit 2) (value "DL032D") (footprint "")
+      (reference "D7") (unit 2) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e96"
-      (reference "D7") (unit 3) (value "DL032D") (footprint "")
+      (reference "D7") (unit 3) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e9c"
-      (reference "D7") (unit 4) (value "DL032D") (footprint "")
+      (reference "D7") (unit 4) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329f76c"
-      (reference "D7") (unit 5) (value "DL032D") (footprint "")
+      (reference "D7") (unit 5) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175da6"
-      (reference "D8") (unit 1) (value "DL004D") (footprint "")
+      (reference "D8") (unit 1) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175ea2"
-      (reference "D8") (unit 2) (value "DL004D") (footprint "")
+      (reference "D8") (unit 2) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d70"
-      (reference "D8") (unit 3) (value "DL004D") (footprint "")
+      (reference "D8") (unit 3) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d76"
-      (reference "D8") (unit 4) (value "DL004D") (footprint "")
+      (reference "D8") (unit 4) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d7c"
-      (reference "D8") (unit 5) (value "DL004D") (footprint "")
+      (reference "D8") (unit 5) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dac"
-      (reference "D8") (unit 6) (value "DL004D") (footprint "")
+      (reference "D8") (unit 6) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a2ed3"
-      (reference "D8") (unit 7) (value "DL004D") (footprint "")
+      (reference "D8") (unit 7) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175db8"
-      (reference "D9") (unit 1) (value "DS8205") (footprint "")
+      (reference "D9") (unit 1) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a7799"
-      (reference "D9") (unit 2) (value "DS8205") (footprint "")
+      (reference "D9") (unit 2) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e00"
-      (reference "D10") (unit 1) (value "DL000D") (footprint "")
+      (reference "D10") (unit 1) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063237e34"
-      (reference "D10") (unit 2) (value "DL000D") (footprint "")
+      (reference "D10") (unit 2) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632396ad"
-      (reference "D10") (unit 3) (value "DL000D") (footprint "")
+      (reference "D10") (unit 3) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063236d69"
-      (reference "D10") (unit 4) (value "DL000D") (footprint "")
+      (reference "D10") (unit 4) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632d8a72"
-      (reference "D10") (unit 5) (value "DL000D") (footprint "")
+      (reference "D10") (unit 5) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/61e1b635-5910-49a0-9840-6ab0ab829011"
-      (reference "D11") (unit 1) (value "DL020D") (footprint "")
+      (reference "D11") (unit 1) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006312c898"
-      (reference "D11") (unit 2) (value "DL020D") (footprint "")
+      (reference "D11") (unit 2) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006328a2c1"
-      (reference "D11") (unit 3) (value "DL020D") (footprint "")
+      (reference "D11") (unit 3) (value "DL020D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006312e12f"
-      (reference "D12") (unit 1) (value "DL008D") (footprint "")
+      (reference "D12") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006312fc0c"
-      (reference "D12") (unit 2) (value "DL008D") (footprint "")
+      (reference "D12") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006311b64e"
-      (reference "D12") (unit 3) (value "DL008D") (footprint "")
+      (reference "D12") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e48"
-      (reference "D12") (unit 4) (value "DL008D") (footprint "")
+      (reference "D12") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632b9de1"
-      (reference "D12") (unit 5) (value "DL008D") (footprint "")
+      (reference "D12") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006312a698"
-      (reference "D13") (unit 1) (value "DL074") (footprint "")
+      (reference "D13") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632308b8"
-      (reference "D13") (unit 2) (value "DL074") (footprint "")
+      (reference "D13") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006328e905"
-      (reference "D13") (unit 3) (value "DL074") (footprint "")
+      (reference "D13") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d52"
-      (reference "D14") (unit 1) (value "DL010D") (footprint "")
+      (reference "D14") (unit 1) (value "DL010D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/4263cf40-e596-4639-a641-902a7683b020"
-      (reference "D14") (unit 2) (value "DL010D") (footprint "")
+      (reference "D14") (unit 2) (value "DL010D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e78"
-      (reference "D14") (unit 3) (value "DL010D") (footprint "")
+      (reference "D14") (unit 3) (value "DL010D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329690b"
-      (reference "D14") (unit 4) (value "DL010D") (footprint "")
+      (reference "D14") (unit 4) (value "DL010D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000631222fd"
-      (reference "D15") (unit 1) (value "DL074") (footprint "")
+      (reference "D15") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175ea8"
-      (reference "D15") (unit 2) (value "DL074") (footprint "")
+      (reference "D15") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632927f2"
-      (reference "D15") (unit 3) (value "DL074") (footprint "")
+      (reference "D15") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e54"
-      (reference "D16") (unit 1) (value "DL000D") (footprint "")
+      (reference "D16") (unit 1) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e4e"
-      (reference "D16") (unit 2) (value "DL000D") (footprint "")
+      (reference "D16") (unit 2) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006322d72a"
-      (reference "D16") (unit 3) (value "DL000D") (footprint "")
+      (reference "D16") (unit 3) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006322fb02"
-      (reference "D16") (unit 4) (value "DL000D") (footprint "")
+      (reference "D16") (unit 4) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632daf37"
-      (reference "D16") (unit 5) (value "DL000D") (footprint "")
+      (reference "D16") (unit 5) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175cf2"
       (reference "D20") (unit 1) (value "K1810WM86") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000638139bc"
-      (reference "D21") (unit 1) (value "DS8286D-D111") (footprint "")
+      (reference "D21") (unit 1) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063870974"
-      (reference "D21") (unit 2) (value "DS8286D-D111") (footprint "")
+      (reference "D21") (unit 2) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063119ee6"
-      (reference "D22") (unit 1) (value "DS8286D") (footprint "")
+      (reference "D22") (unit 1) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329d568"
-      (reference "D22") (unit 2) (value "DS8286D") (footprint "")
+      (reference "D22") (unit 2) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d28"
-      (reference "D23") (unit 1) (value "DS8286D-D23") (footprint "")
+      (reference "D23") (unit 1) (value "DS8286D-D23") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a5fde"
-      (reference "D23") (unit 2) (value "DS8286D-D23") (footprint "")
+      (reference "D23") (unit 2) (value "DS8286D-D23") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d2e"
-      (reference "D24") (unit 1) (value "DL374") (footprint "")
+      (reference "D24") (unit 1) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632aa642"
-      (reference "D24") (unit 2) (value "DL374") (footprint "")
+      (reference "D24") (unit 2) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d16"
-      (reference "D25") (unit 1) (value "DS8282") (footprint "")
+      (reference "D25") (unit 1) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632828bd"
-      (reference "D25") (unit 2) (value "DS8282") (footprint "")
+      (reference "D25") (unit 2) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d1c"
-      (reference "D26") (unit 1) (value "DS8282") (footprint "")
+      (reference "D26") (unit 1) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632831ff"
-      (reference "D26") (unit 2) (value "DS8282") (footprint "")
+      (reference "D26") (unit 2) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006318de03"
-      (reference "D27") (unit 1) (value "DS8286D-D27") (footprint "")
+      (reference "D27") (unit 1) (value "DS8286D-D27") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632b4eec"
-      (reference "D27") (unit 2) (value "DS8286D-D27") (footprint "")
+      (reference "D27") (unit 2) (value "DS8286D-D27") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d3a"
-      (reference "D28") (unit 1) (value "DL295") (footprint "")
+      (reference "D28") (unit 1) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329cee3"
-      (reference "D28") (unit 2) (value "DL295") (footprint "")
+      (reference "D28") (unit 2) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d40"
-      (reference "D29") (unit 1) (value "DL295") (footprint "")
+      (reference "D29") (unit 1) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329d5a0"
-      (reference "D29") (unit 2) (value "DL295") (footprint "")
+      (reference "D29") (unit 2) (value "DL295") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632271e1"
-      (reference "D30") (unit 1) (value "DL374") (footprint "")
+      (reference "D30") (unit 1) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632b20cc"
-      (reference "D30") (unit 2) (value "DL374") (footprint "")
+      (reference "D30") (unit 2) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006322844c"
-      (reference "D31") (unit 1) (value "DL374") (footprint "")
+      (reference "D31") (unit 1) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632b2697"
-      (reference "D31") (unit 2) (value "DL374") (footprint "")
+      (reference "D31") (unit 2) (value "DL374") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e60"
-      (reference "D32") (unit 1) (value "DL000D") (footprint "")
+      (reference "D32") (unit 1) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e42"
-      (reference "D32") (unit 2) (value "DL000D") (footprint "")
+      (reference "D32") (unit 2) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063131b7f"
-      (reference "D32") (unit 3) (value "DL000D") (footprint "")
+      (reference "D32") (unit 3) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e5a"
-      (reference "D32") (unit 4) (value "DL000D") (footprint "")
+      (reference "D32") (unit 4) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632db2f2"
-      (reference "D32") (unit 5) (value "DL000D") (footprint "")
+      (reference "D32") (unit 5) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e36"
-      (reference "D33") (unit 1) (value "DL002D") (footprint "")
+      (reference "D33") (unit 1) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d6a"
-      (reference "D33") (unit 2) (value "DL002D") (footprint "")
+      (reference "D33") (unit 2) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d88"
-      (reference "D33") (unit 3) (value "DL002D") (footprint "")
+      (reference "D33") (unit 3) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d82"
-      (reference "D33") (unit 4) (value "DL002D") (footprint "")
+      (reference "D33") (unit 4) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632dbdde"
-      (reference "D33") (unit 5) (value "DL002D") (footprint "")
+      (reference "D33") (unit 5) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dfa"
-      (reference "D34") (unit 1) (value "DL004D") (footprint "")
+      (reference "D34") (unit 1) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e7e"
-      (reference "D34") (unit 2) (value "DL004D") (footprint "")
+      (reference "D34") (unit 2) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323a837"
-      (reference "D34") (unit 3) (value "DL004D") (footprint "")
+      (reference "D34") (unit 3) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/12484395-ddb2-4166-b6d7-87b063f3061b"
-      (reference "D34") (unit 4) (value "DL004D") (footprint "")
+      (reference "D34") (unit 4) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d64"
-      (reference "D34") (unit 5) (value "DL004D") (footprint "")
+      (reference "D34") (unit 5) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063260c56"
-      (reference "D34") (unit 6) (value "DL004D") (footprint "")
+      (reference "D34") (unit 6) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a376f"
-      (reference "D34") (unit 7) (value "DL004D") (footprint "")
+      (reference "D34") (unit 7) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dd0"
-      (reference "D35") (unit 1) (value "DL175") (footprint "")
+      (reference "D35") (unit 1) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175da0"
-      (reference "D35") (unit 2) (value "DL175") (footprint "")
+      (reference "D35") (unit 2) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175ddc"
-      (reference "D35") (unit 3) (value "DL175") (footprint "")
+      (reference "D35") (unit 3) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dd6"
-      (reference "D35") (unit 4) (value "DL175") (footprint "")
+      (reference "D35") (unit 4) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bec7b"
-      (reference "D35") (unit 5) (value "DL175") (footprint "")
+      (reference "D35") (unit 5) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063123ee9"
-      (reference "D36") (unit 1) (value "DL175") (footprint "")
+      (reference "D36") (unit 1) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063125d30"
-      (reference "D36") (unit 2) (value "DL175") (footprint "")
+      (reference "D36") (unit 2) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063127535"
-      (reference "D36") (unit 3) (value "DL175") (footprint "")
+      (reference "D36") (unit 3) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063128e0e"
-      (reference "D36") (unit 4) (value "DL175") (footprint "")
+      (reference "D36") (unit 4) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c36b2"
-      (reference "D36") (unit 5) (value "DL175") (footprint "")
+      (reference "D36") (unit 5) (value "DL175") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e0c"
-      (reference "D37") (unit 1) (value "DL032D") (footprint "")
+      (reference "D37") (unit 1) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632625fa"
-      (reference "D37") (unit 2) (value "DL032D") (footprint "")
+      (reference "D37") (unit 2) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632614b0"
-      (reference "D37") (unit 3) (value "DL032D") (footprint "")
+      (reference "D37") (unit 3) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/0c066f30-7c6f-46b0-96b3-67a9f8326866"
-      (reference "D37") (unit 4) (value "DL032D") (footprint "")
+      (reference "D37") (unit 4) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a03de"
-      (reference "D37") (unit 5) (value "DL032D") (footprint "")
+      (reference "D37") (unit 5) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006312066a"
-      (reference "D38") (unit 1) (value "DL074") (footprint "")
+      (reference "D38") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dee"
-      (reference "D38") (unit 2) (value "DL074") (footprint "")
+      (reference "D38") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063292c04"
-      (reference "D38") (unit 3) (value "DL074") (footprint "")
+      (reference "D38") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e06"
-      (reference "D39") (unit 1) (value "DL000D") (footprint "")
+      (reference "D39") (unit 1) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006326d7e4"
-      (reference "D39") (unit 2) (value "DL000D") (footprint "")
+      (reference "D39") (unit 2) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063135353"
-      (reference "D39") (unit 3) (value "DL000D") (footprint "")
+      (reference "D39") (unit 3) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006313369b"
-      (reference "D39") (unit 4) (value "DL000D") (footprint "")
+      (reference "D39") (unit 4) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632db76c"
-      (reference "D39") (unit 5) (value "DL000D") (footprint "")
+      (reference "D39") (unit 5) (value "DL000D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d8e"
-      (reference "D40") (unit 1) (value "DL008D") (footprint "")
+      (reference "D40") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e72"
-      (reference "D40") (unit 2) (value "DL008D") (footprint "")
+      (reference "D40") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d9a"
-      (reference "D40") (unit 3) (value "DL008D") (footprint "")
+      (reference "D40") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175eb4"
-      (reference "D40") (unit 4) (value "DL008D") (footprint "")
+      (reference "D40") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632baa59"
-      (reference "D40") (unit 5) (value "DL008D") (footprint "")
+      (reference "D40") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d04"
       (reference "D42") (unit 1) (value "A302D") (footprint "Package_DIP:DIP-4_W7.62mm")
@@ -1081,37 +1182,37 @@
       (reference "D43") (unit 2) (value "8284") (footprint "Package_DIP:DIP-18_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063225658"
-      (reference "D44") (unit 1) (value "DS8286D-D111") (footprint "")
+      (reference "D44") (unit 1) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c6c5a"
-      (reference "D44") (unit 2) (value "DS8286D-D111") (footprint "")
+      (reference "D44") (unit 2) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dca"
-      (reference "D45") (unit 1) (value "DS8282") (footprint "")
+      (reference "D45") (unit 1) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632839ab"
-      (reference "D45") (unit 2) (value "DS8282") (footprint "")
+      (reference "D45") (unit 2) (value "DS8282") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d0a"
-      (reference "D46") (unit 1) (value "DS8216") (footprint "")
+      (reference "D46") (unit 1) (value "DS8216") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632ca270"
-      (reference "D46") (unit 2) (value "DS8216") (footprint "")
+      (reference "D46") (unit 2) (value "DS8216") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175df4"
-      (reference "D47") (unit 1) (value "DL008D") (footprint "")
+      (reference "D47") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063235885"
-      (reference "D47") (unit 2) (value "DL008D") (footprint "")
+      (reference "D47") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e1e"
-      (reference "D47") (unit 3) (value "DL008D") (footprint "")
+      (reference "D47") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e66"
-      (reference "D47") (unit 4) (value "DL008D") (footprint "")
+      (reference "D47") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bb3fb"
-      (reference "D47") (unit 5) (value "DL008D") (footprint "")
+      (reference "D47") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e24"
       (reference "D48") (unit 1) (value "KR580WN59A") (footprint "Package_DIP:DIP-28_W15.24mm")
@@ -1132,22 +1233,22 @@
       (reference "D50") (unit 2) (value "KR580IK57") (footprint "Package_DIP:DIP-40_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175de8"
-      (reference "D51") (unit 1) (value "DL074") (footprint "")
+      (reference "D51") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-00006314e7a9"
-      (reference "D51") (unit 2) (value "DL074") (footprint "")
+      (reference "D51") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063293287"
-      (reference "D51") (unit 3) (value "DL074") (footprint "")
+      (reference "D51") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063269c62"
-      (reference "D52") (unit 1) (value "74HC74") (footprint "")
+      (reference "D52") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006326be40"
-      (reference "D52") (unit 2) (value "74HC74") (footprint "")
+      (reference "D52") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632d5b6c"
-      (reference "D52") (unit 3) (value "74HC74") (footprint "")
+      (reference "D52") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006322aa86"
       (reference "D53") (unit 1) (value "KR580WI53") (footprint "Package_DIP:DIP-24_W15.24mm")
@@ -1171,184 +1272,184 @@
       (reference "D56") (unit 2) (value "2716") (footprint "Package_DIP:DIP-24_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324309f"
-      (reference "D57") (unit 1) (value "DL008D") (footprint "")
+      (reference "D57") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632448fd"
-      (reference "D57") (unit 3) (value "DL008D") (footprint "")
+      (reference "D57") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063245344"
-      (reference "D57") (unit 4) (value "DL008D") (footprint "")
+      (reference "D57") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bba9f"
-      (reference "D57") (unit 5) (value "DL008D") (footprint "")
+      (reference "D57") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063241cf0"
-      (reference "D58") (unit 1) (value "74HC74") (footprint "")
+      (reference "D58") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323e6c9"
-      (reference "D58") (unit 2) (value "74HC74") (footprint "")
+      (reference "D58") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632d7977"
-      (reference "D58") (unit 3) (value "74HC74") (footprint "")
+      (reference "D58") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d5e"
-      (reference "D59") (unit 1) (value "DL004D") (footprint "")
+      (reference "D59") (unit 1) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006325c3f4"
-      (reference "D59") (unit 2) (value "DL004D") (footprint "")
+      (reference "D59") (unit 2) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006325d0d0"
-      (reference "D59") (unit 3) (value "DL004D") (footprint "")
+      (reference "D59") (unit 3) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063225463"
-      (reference "D59") (unit 4) (value "DL004D") (footprint "")
+      (reference "D59") (unit 4) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e84"
-      (reference "D59") (unit 5) (value "DL004D") (footprint "")
+      (reference "D59") (unit 5) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632322a1"
-      (reference "D59") (unit 6) (value "DL004D") (footprint "")
+      (reference "D59") (unit 6) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a3fb9"
-      (reference "D59") (unit 7) (value "DL004D") (footprint "")
+      (reference "D59") (unit 7) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324115d"
-      (reference "D60") (unit 1) (value "74HC74") (footprint "")
+      (reference "D60") (unit 1) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323dcff"
-      (reference "D60") (unit 2) (value "74HC74") (footprint "")
+      (reference "D60") (unit 2) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632d8199"
-      (reference "D60") (unit 3) (value "74HC74") (footprint "")
+      (reference "D60") (unit 3) (value "74HC74") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dbe"
-      (reference "D61") (unit 1) (value "DS8216") (footprint "")
+      (reference "D61") (unit 1) (value "DS8216") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632ccf9e"
-      (reference "D61") (unit 2) (value "DS8216") (footprint "")
+      (reference "D61") (unit 2) (value "DS8216") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e18"
-      (reference "D62") (unit 1) (value "DL032D") (footprint "")
+      (reference "D62") (unit 1) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006325f6a5"
-      (reference "D62") (unit 2) (value "DL032D") (footprint "")
+      (reference "D62") (unit 2) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323a668"
-      (reference "D62") (unit 3) (value "DL032D") (footprint "")
+      (reference "D62") (unit 3) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323b4e5"
-      (reference "D62") (unit 4) (value "DL032D") (footprint "")
+      (reference "D62") (unit 4) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a0b2e"
-      (reference "D62") (unit 5) (value "DL032D") (footprint "")
+      (reference "D62") (unit 5) (value "DL032D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/663698dd-d264-4035-80fc-c043f8badf04"
-      (reference "D63") (unit 1) (value "DL010D-D63") (footprint "")
+      (reference "D63") (unit 1) (value "DL010D-D63") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175eba"
-      (reference "D63") (unit 2) (value "DL010D-D63") (footprint "")
+      (reference "D63") (unit 2) (value "DL010D-D63") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323c85b"
-      (reference "D63") (unit 3) (value "DL010D-D63") (footprint "")
+      (reference "D63") (unit 3) (value "DL010D-D63") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a36cb"
-      (reference "D63") (unit 4) (value "DL010D-D63") (footprint "")
+      (reference "D63") (unit 4) (value "DL010D-D63") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175dc4"
-      (reference "D64") (unit 1) (value "DS8286D-D23") (footprint "")
+      (reference "D64") (unit 1) (value "DS8286D-D23") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a7e1f"
-      (reference "D64") (unit 2) (value "DS8286D-D23") (footprint "")
+      (reference "D64") (unit 2) (value "DS8286D-D23") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632583f0"
-      (reference "D65") (unit 1) (value "DS8205") (footprint "")
+      (reference "D65") (unit 1) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632ac54a"
-      (reference "D65") (unit 2) (value "DS8205") (footprint "")
+      (reference "D65") (unit 2) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063222e8a"
-      (reference "D66") (unit 1) (value "DS8205") (footprint "")
+      (reference "D66") (unit 1) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632acb7f"
-      (reference "D66") (unit 2) (value "DS8205") (footprint "")
+      (reference "D66") (unit 2) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063247f43"
-      (reference "D67") (unit 1) (value "DL074") (footprint "")
+      (reference "D67") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175de2"
-      (reference "D67") (unit 2) (value "DL074") (footprint "")
+      (reference "D67") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063293a13"
-      (reference "D67") (unit 3) (value "DL074") (footprint "")
+      (reference "D67") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063257340"
-      (reference "D68") (unit 1) (value "74S51") (footprint "")
+      (reference "D68") (unit 1) (value "74S51") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063253ca6"
-      (reference "D68") (unit 2) (value "74S51") (footprint "")
+      (reference "D68") (unit 2) (value "74S51") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a4ff3"
-      (reference "D68") (unit 3) (value "74S51") (footprint "")
+      (reference "D68") (unit 3) (value "74S51") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324701c"
-      (reference "D69") (unit 1) (value "DL008D") (footprint "")
+      (reference "D69") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/d5a4b4fb-0b22-4d4c-88e6-ea6251cb3b10"
-      (reference "D69") (unit 2) (value "DL008D") (footprint "")
+      (reference "D69") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063246496"
-      (reference "D69") (unit 3) (value "DL008D") (footprint "")
+      (reference "D69") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324a065"
-      (reference "D69") (unit 4) (value "DL008D") (footprint "")
+      (reference "D69") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bc34a"
-      (reference "D69") (unit 5) (value "DL008D") (footprint "")
+      (reference "D69") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324c1c0"
-      (reference "D70") (unit 1) (value "DL008D") (footprint "")
+      (reference "D70") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324cd21"
-      (reference "D70") (unit 2) (value "DL008D") (footprint "")
+      (reference "D70") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063255d2b"
-      (reference "D70") (unit 3) (value "DL008D") (footprint "")
+      (reference "D70") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063255530"
-      (reference "D70") (unit 4) (value "DL008D") (footprint "")
+      (reference "D70") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bcae2"
-      (reference "D70") (unit 5) (value "DL008D") (footprint "")
+      (reference "D70") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063226fe8"
-      (reference "D71") (unit 1) (value "DL002D") (footprint "")
+      (reference "D71") (unit 1) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063233cf7"
-      (reference "D71") (unit 2) (value "DL002D") (footprint "")
+      (reference "D71") (unit 2) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e12"
-      (reference "D71") (unit 3) (value "DL002D") (footprint "")
+      (reference "D71") (unit 3) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006325e26e"
-      (reference "D71") (unit 4) (value "DL002D") (footprint "")
+      (reference "D71") (unit 4) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632dc80d"
-      (reference "D71") (unit 5) (value "DL002D") (footprint "")
+      (reference "D71") (unit 5) (value "DL002D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632502cd"
-      (reference "D72") (unit 1) (value "DL008D") (footprint "")
+      (reference "D72") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063250bb7"
-      (reference "D72") (unit 2) (value "DL008D") (footprint "")
+      (reference "D72") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632487b2"
-      (reference "D72") (unit 3) (value "DL008D") (footprint "")
+      (reference "D72") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324965a"
-      (reference "D72") (unit 4) (value "DL008D") (footprint "")
+      (reference "D72") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bcaec"
-      (reference "D72") (unit 5) (value "DL008D") (footprint "")
+      (reference "D72") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000063202c12"
       (reference "D73") (unit 1) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -1405,106 +1506,106 @@
       (reference "D81") (unit 2) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063265115"
-      (reference "D82") (unit 1) (value "DL004D") (footprint "")
+      (reference "D82") (unit 1) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632679f9"
-      (reference "D82") (unit 2) (value "DL004D") (footprint "")
+      (reference "D82") (unit 2) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/55d6ede7-0e81-403b-b7b2-bd95a1ccec97"
-      (reference "D82") (unit 3) (value "DL004D") (footprint "")
+      (reference "D82") (unit 3) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/5ad17650-76a4-4a82-99f1-85137639683c"
-      (reference "D82") (unit 4) (value "DL004D") (footprint "")
+      (reference "D82") (unit 4) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/6a9eef05-cae8-4845-80cc-59e48ec4e418"
-      (reference "D82") (unit 5) (value "DL004D") (footprint "")
+      (reference "D82") (unit 5) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/a8024216-ae1a-4da8-87b9-ffcd26df111a"
-      (reference "D82") (unit 6) (value "DL004D") (footprint "")
+      (reference "D82") (unit 6) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a4772"
-      (reference "D82") (unit 7) (value "DL004D") (footprint "")
+      (reference "D82") (unit 7) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d58"
-      (reference "D83") (unit 1) (value "DS8286D") (footprint "")
+      (reference "D83") (unit 1) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006329f307"
-      (reference "D83") (unit 2) (value "DS8286D") (footprint "")
+      (reference "D83") (unit 2) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d46"
-      (reference "D84") (unit 1) (value "DS8286D") (footprint "")
+      (reference "D84") (unit 1) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a051e"
-      (reference "D84") (unit 2) (value "DS8286D") (footprint "")
+      (reference "D84") (unit 2) (value "DS8286D") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006321ebf7"
-      (reference "D85") (unit 1) (value "KR531KP11") (footprint "")
+      (reference "D85") (unit 1) (value "KR531KP11") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632ac619"
-      (reference "D85") (unit 2) (value "KR531KP11") (footprint "")
+      (reference "D85") (unit 2) (value "KR531KP11") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063220b18"
-      (reference "D86") (unit 1) (value "KR531KP11") (footprint "")
+      (reference "D86") (unit 1) (value "KR531KP11") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632af268"
-      (reference "D86") (unit 2) (value "KR531KP11") (footprint "")
+      (reference "D86") (unit 2) (value "KR531KP11") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063228bde"
-      (reference "D87") (unit 1) (value "DL004D") (footprint "")
+      (reference "D87") (unit 1) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/75552edd-594c-44d9-99fe-00f48a1c82c6"
-      (reference "D87") (unit 2) (value "DL004D") (footprint "")
+      (reference "D87") (unit 2) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000066bdfb22"
-      (reference "D87") (unit 3) (value "DL004D") (footprint "")
+      (reference "D87") (unit 3) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006325a757"
-      (reference "D87") (unit 4) (value "DL004D") (footprint "")
+      (reference "D87") (unit 4) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/0d0c3ff0-ee1e-4390-9242-46614e0af87e"
-      (reference "D87") (unit 5) (value "DL004D") (footprint "")
+      (reference "D87") (unit 5) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175db2"
-      (reference "D87") (unit 6) (value "DL004D") (footprint "")
+      (reference "D87") (unit 6) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632a51c9"
-      (reference "D87") (unit 7) (value "DL004D") (footprint "")
+      (reference "D87") (unit 7) (value "DL004D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063254ae7"
-      (reference "D88") (unit 1) (value "DL008D") (footprint "")
+      (reference "D88") (unit 1) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006324ae68"
-      (reference "D88") (unit 2) (value "DL008D") (footprint "")
+      (reference "D88") (unit 2) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175e3c"
-      (reference "D88") (unit 3) (value "DL008D") (footprint "")
+      (reference "D88") (unit 3) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175eae"
-      (reference "D88") (unit 4) (value "DL008D") (footprint "")
+      (reference "D88") (unit 4) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632bcaf6"
-      (reference "D88") (unit 5) (value "DL008D") (footprint "")
+      (reference "D88") (unit 5) (value "DL008D") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175ce6"
-      (reference "D89") (unit 1) (value "DS8205") (footprint "")
+      (reference "D89") (unit 1) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632ad13d"
-      (reference "D89") (unit 2) (value "DS8205") (footprint "")
+      (reference "D89") (unit 2) (value "DS8205") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323c0ed"
-      (reference "D90") (unit 1) (value "KR531LI1") (footprint "")
+      (reference "D90") (unit 1) (value "KR531LI1") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-00006322f280"
-      (reference "D90") (unit 2) (value "KR531LI1") (footprint "")
+      (reference "D90") (unit 2) (value "KR531LI1") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000631ce9b4"
-      (reference "D90") (unit 3) (value "KR531LI1") (footprint "")
+      (reference "D90") (unit 3) (value "KR531LI1") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006323dd4a"
-      (reference "D90") (unit 4) (value "KR531LI1") (footprint "")
+      (reference "D90") (unit 4) (value "KR531LI1") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632b1f42"
-      (reference "D90") (unit 5) (value "KR531LI1") (footprint "")
+      (reference "D90") (unit 5) (value "KR531LI1") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000632664eb"
       (reference "D91") (unit 1) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -1561,16 +1662,16 @@
       (reference "D99") (unit 2) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006321b447"
-      (reference "D100") (unit 1) (value "U2764") (footprint "")
+      (reference "D100") (unit 1) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c5566"
-      (reference "D100") (unit 2) (value "U2764") (footprint "")
+      (reference "D100") (unit 2) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006321634a"
-      (reference "D101") (unit 1) (value "U2764") (footprint "")
+      (reference "D101") (unit 1) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c6d69"
-      (reference "D101") (unit 2) (value "U2764") (footprint "")
+      (reference "D101") (unit 2) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-00006322f3d1"
       (reference "D102") (unit 1) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -1627,40 +1728,40 @@
       (reference "D110") (unit 2) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632237a6"
-      (reference "D111") (unit 1) (value "DS8286D-D111") (footprint "")
+      (reference "D111") (unit 1) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c83e0"
-      (reference "D111") (unit 2) (value "DS8286D-D111") (footprint "")
+      (reference "D111") (unit 2) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632246e7"
-      (reference "D112") (unit 1) (value "DS8286D-D111") (footprint "")
+      (reference "D112") (unit 1) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c91a1"
-      (reference "D112") (unit 2) (value "DS8286D-D111") (footprint "")
+      (reference "D112") (unit 2) (value "DS8286D-D111") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000631bef15"
-      (reference "D113") (unit 1) (value "KR531IP5") (footprint "")
+      (reference "D113") (unit 1) (value "KR531IP5") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632cc1bf"
-      (reference "D113") (unit 2) (value "KR531IP5") (footprint "")
+      (reference "D113") (unit 2) (value "KR531IP5") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000631be459"
-      (reference "D114") (unit 1) (value "KR531IP5") (footprint "")
+      (reference "D114") (unit 1) (value "KR531IP5") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632cf845"
-      (reference "D114") (unit 2) (value "KR531IP5") (footprint "")
+      (reference "D114") (unit 2) (value "KR531IP5") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006321b345"
-      (reference "D115") (unit 1) (value "U2764") (footprint "")
+      (reference "D115") (unit 1) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c77d5"
-      (reference "D115") (unit 2) (value "U2764") (footprint "")
+      (reference "D115") (unit 2) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006321821d"
-      (reference "D116") (unit 1) (value "U2764") (footprint "")
+      (reference "D116") (unit 1) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632c82a9"
-      (reference "D116") (unit 2) (value "U2764") (footprint "")
+      (reference "D116") (unit 2) (value "U2764") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000632dfe0b"
       (reference "D117") (unit 1) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -1717,34 +1818,34 @@
       (reference "D125") (unit 2) (value "U2164") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175d4c"
-      (reference "D126") (unit 1) (value "DL074") (footprint "")
+      (reference "D126") (unit 1) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/4c5732ff-1d49-4804-a88e-4cd1f7325026"
-      (reference "D126") (unit 2) (value "DL074") (footprint "")
+      (reference "D126") (unit 2) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632941ae"
-      (reference "D126") (unit 3) (value "DL074") (footprint "")
+      (reference "D126") (unit 3) (value "DL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/4398215b-6728-4177-b07d-6c9ac9382da7"
-      (reference "E1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "E1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/bd5f75c0-8efa-4696-a80c-2502691d8fc1"
-      (reference "E2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "E2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/81e2826e-9d30-419d-95f6-9202ddc08e1d"
-      (reference "E4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "E4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/67dabe48-ed98-4de7-b8d4-1298c34fe516"
-      (reference "E5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "E5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000063239fae/8554e281-baf9-4d23-b2b4-9cc6a648ce44"
-      (reference "E6") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "E6") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000063239fae/efed7b9e-f7b9-4b7a-a873-c9d4491928d4"
-      (reference "E7") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "E7") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000063239fae/2235dbec-242c-4364-8e9f-39b749c9edae"
-      (reference "E8") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "E8") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000063239fae/2fcaa578-ffd5-4fda-b010-9c2fef1ea2a0"
       (reference "K1") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2113,19 +2214,19 @@
       (reference "K126") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/6e649ed7-ebd8-46aa-ab73-a48e6dadc53e"
-      (reference "L1") (unit 1) (value "L_Ferrite_Coupled_Small_15263748") (footprint "")
+      (reference "L1") (unit 1) (value "L_Ferrite_Coupled_Small_15263748") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/f5a4aced-2c9e-4c1c-8aa0-ab9b7dc51401"
-      (reference "PS1") (unit 1) (value "Conn_01x03") (footprint "")
+      (reference "PS1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/61a974fc-64e6-41b3-b013-5b2fc58691f7"
-      (reference "PS2") (unit 1) (value "Conn_01x03") (footprint "")
+      (reference "PS2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/fa483701-f0bd-4701-be64-3f793a51028f"
-      (reference "PS3") (unit 1) (value "PS3") (footprint "")
+      (reference "PS3") (unit 1) (value "PS3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/3b570a9e-a5d0-49d4-a28d-ed1056a55a73"
-      (reference "PS4") (unit 1) (value "PS4") (footprint "")
+      (reference "PS4") (unit 1) (value "PS4") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a450"
       (reference "PS5:1") (unit 1) (value "PS5") (footprint "")
@@ -2440,46 +2541,46 @@
       (reference "V1") (unit 1) (value "14745,6KHz") (footprint "Crystal:Crystal_HC18-U_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/d4fb7f61-068e-41ee-8415-848e2aa66f5a"
-      (reference "V2") (unit 1) (value "SAY30") (footprint "")
+      (reference "V2") (unit 1) (value "SAY30") (footprint "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp")
     )
     (path "/00000000-0000-0000-0000-000063239fae/20c1698b-e801-42e0-abc4-898025170bb8"
-      (reference "V3") (unit 1) (value "LED") (footprint "")
+      (reference "V3") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/b3da5b0e-673f-4fd2-a1cd-bf54f4177e09"
-      (reference "V4") (unit 1) (value "LED") (footprint "")
+      (reference "V4") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/2de132e6-aa8b-4923-b7b7-750c53c78e9b"
-      (reference "V5") (unit 1) (value "LED") (footprint "")
+      (reference "V5") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/5e1f60dd-3dde-427c-95da-2032736a14f7"
-      (reference "V6") (unit 1) (value "LED") (footprint "")
+      (reference "V6") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/477b2d32-b9a2-44dc-ae4a-c732703caa87"
-      (reference "W2") (unit 1) (value "Conn_01x01") (footprint "")
+      (reference "W2") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/eb643527-fcdc-40b8-92cb-89c8adf89530"
-      (reference "W3") (unit 1) (value "Conn_01x01") (footprint "")
+      (reference "W3") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fc356"
-      (reference "W4") (unit 1) (value "W4") (footprint "")
+      (reference "W4") (unit 1) (value "W4") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fdb70"
-      (reference "W5") (unit 1) (value "W5") (footprint "")
+      (reference "W5") (unit 1) (value "W5") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000638664c3"
-      (reference "WD1") (unit 1) (value "WD1") (footprint "")
+      (reference "WD1") (unit 1) (value "WD1") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063805653"
-      (reference "WD2") (unit 1) (value "WD2") (footprint "")
+      (reference "WD2") (unit 1) (value "WD2") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000637ebef3"
-      (reference "WD3") (unit 1) (value "WD3") (footprint "")
+      (reference "WD3") (unit 1) (value "WD3") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/ac82a8c9-65eb-48cf-b2e3-c91c3de61da7"
-      (reference "WD4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "WD4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/d03809af-e2af-4c9d-800c-e16a97a7edfe"
-      (reference "WD5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "WD5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/2621e93f-9492-4324-85d7-d8a41461acef/c5f946bf-eb50-4a9f-b24c-014fe8189477"
       (reference "X1.1") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
@@ -2506,19 +2607,22 @@
       (reference "X1.8") (unit 1) (value "BUS_EC1834_16Bit") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
     )
     (path "/00000000-0000-0000-0000-000063239fae/b499c4a4-fca4-4cd3-b7c4-9723ed41c476"
-      (reference "X2") (unit 1) (value "Conn_01x06") (footprint "")
+      (reference "X2") (unit 1) (value "Conn_01x06") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00236_1x06_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/9aad3b93-6b86-44db-a9e1-50a999012a1d"
-      (reference "X3") (unit 1) (value "Conn_01x08") (footprint "")
+      (reference "X3") (unit 1) (value "Conn_01x08") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00238_1x08_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/198d518b-45b4-49f1-a245-82273e089c60"
-      (reference "X4") (unit 1) (value "Lautsprecher") (footprint "")
+      (reference "X4") (unit 1) (value "Lautsprecher") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000063239fae/671479f2-5c65-4fa4-b187-ffe1875a2967"
+      (reference "X5") (unit 1) (value "PowerLED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/bc4a4052-ddde-4942-81a1-196284c92344"
-      (reference "X6") (unit 1) (value "Conn_02x01") (footprint "")
+      (reference "X6") (unit 1) (value "Conn_02x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/0f15c498-48ac-4984-86d1-8d691a108101"
-      (reference "X7") (unit 1) (value "DB9_Female") (footprint "")
+      (reference "X7") (unit 1) (value "DB9_Female") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm")
     )
   )
 )
