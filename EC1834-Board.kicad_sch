@@ -2577,7 +2577,7 @@
       (reference "WD3") (unit 1) (value "WD3") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/ac82a8c9-65eb-48cf-b2e3-c91c3de61da7"
-      (reference "WD4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "WD4") (unit 1) (value "SolderJumper_2_Open") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/d03809af-e2af-4c9d-800c-e16a97a7edfe"
       (reference "WD5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
@@ -2619,7 +2619,7 @@
       (reference "X5") (unit 1) (value "PowerLED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/bc4a4052-ddde-4942-81a1-196284c92344"
-      (reference "X6") (unit 1) (value "Conn_02x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "X6") (unit 1) (value "RESET_BTN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/0f15c498-48ac-4984-86d1-8d691a108101"
       (reference "X7") (unit 1) (value "DB9_Female") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm")
