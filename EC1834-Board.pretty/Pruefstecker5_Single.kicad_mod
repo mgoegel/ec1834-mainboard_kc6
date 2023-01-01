@@ -1,0 +1,26 @@
+(footprint "Pruefstecker5_Single" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 1.905 -38.1 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 200bca2c-7542-460e-9cba-626093896afe)
+  )
+  (fp_text value "Pruefstecker5_Single" (at -1.27 8.89 90 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a2188e77-e73f-4fb7-926b-208ba0e8fcd2)
+  )
+  (fp_text user "${VALUE}" (at -1.27 -8.255 90 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 82e52931-9ec5-4b56-9f6f-03de877abad4)
+  )
+  (fp_rect (start 0.254 -1.0795) (end 5.334 0.9525) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 10b6ab5d-4265-4975-91fe-d892acb72799))
+  (fp_rect (start 0 -1.27) (end 5.588 1.143) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 21f34994-ac3a-4271-8b94-37b9a2f6d63e))
+  (pad "1" connect oval (at 2.794 -0.0635) (size 4.572 1.524) (layers "B.Cu" "B.Mask") (tstamp 23bc5dbe-aedb-4209-904e-37f955069ab7))
+  (group "" (id 85b4c485-52e1-49cd-8b47-73efb8f2cbe3)
+    (members
+      10b6ab5d-4265-4975-91fe-d892acb72799
+      21f34994-ac3a-4271-8b94-37b9a2f6d63e
+      23bc5dbe-aedb-4209-904e-37f955069ab7
+    )
+  )
+)

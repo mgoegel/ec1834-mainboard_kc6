@@ -2217,7 +2217,7 @@
       (reference "L1") (unit 1) (value "L_Ferrite_Coupled_Small_15263748") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/f5a4aced-2c9e-4c1c-8aa0-ab9b7dc51401"
-      (reference "PS1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "PS1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000631598da/61a974fc-64e6-41b3-b013-5b2fc58691f7"
       (reference "PS2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -2229,88 +2229,88 @@
       (reference "PS4") (unit 1) (value "PS4") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a450"
-      (reference "PS5:1") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:1") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a446"
-      (reference "PS5:2") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:2") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a45a"
-      (reference "PS5:3") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:3") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf3fb"
-      (reference "PS5:4") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:4") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a43c"
-      (reference "PS5:5") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:5") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a41e"
-      (reference "PS5:6") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:6") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf3f1"
-      (reference "PS5:7") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:7") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a432"
-      (reference "PS5:8") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:8") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a414"
-      (reference "PS5:9") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:9") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f59b2a"
-      (reference "PS5:10") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:10") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecead7"
-      (reference "PS5:11") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:11") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a428"
-      (reference "PS5:12") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:12") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e46804"
-      (reference "PS5:13") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:13") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fae54"
-      (reference "PS5:14") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:14") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e4595e"
-      (reference "PS5:15") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:15") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/3373e911-1e09-4097-8c96-aedff7a64dd3"
-      (reference "PS5:16") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:16") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/a05b7388-e23e-49dd-88f3-3c293f54c08d"
-      (reference "PS5:17") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:17") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e45f0a"
-      (reference "PS5:18") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:18") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/5467628d-eba7-4e54-9305-56f15396cc79"
-      (reference "PS5:19") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:19") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/b07ddedb-21ab-45d5-a787-c89e3e0be3d0"
-      (reference "PS5:20") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:20") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/0d5941b4-92a2-4dcd-a55b-fb20119cf089"
-      (reference "PS5:21") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:21") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/65a19e0e-5f9d-4975-8150-e7b24846fd08"
-      (reference "PS5:22") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:22") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/3e23625d-b0e6-48e3-ad9d-23dc1a0ccf25"
-      (reference "PS5:23") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:23") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/60611e96-b1c4-449e-8f85-f98a270b1c3c"
-      (reference "PS5:24") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:24") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fb624"
-      (reference "PS5:25") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:25") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000063d421bd"
-      (reference "PS5:26") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:26") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf405"
-      (reference "PS5:27") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:27") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f58830"
-      (reference "PS5:28") (unit 1) (value "PS5") (footprint "")
+      (reference "PS5:28") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d02c5"
       (reference "R1") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
