@@ -723,7 +723,7 @@
       (reference "C4") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/db7ecb69-9a35-445f-becc-e006af4872b0"
-      (reference "C5") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C5") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/477bb5e8-9b0b-495e-ab06-08fabd026d6b"
       (reference "C6") (unit 1) (value "10nF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2313,28 +2313,28 @@
       (reference "PS5:28") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d02c5"
-      (reference "R1") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R1") (unit 1) (value "4k7") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d0cfd"
-      (reference "R2") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R2") (unit 1) (value "4k7") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633ce9ce"
-      (reference "R3") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R3") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/8b19c2eb-acb8-42e1-a50b-ca41baf324ba"
-      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R4") (unit 1) (value "1k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633cdaca"
-      (reference "R5") (unit 1) (value "511") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R5") (unit 1) (value "511") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633cd3cf"
-      (reference "R6") (unit 1) (value "511") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R6") (unit 1) (value "511") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633ce1cc"
-      (reference "R7") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R7") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d2181"
-      (reference "R8") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R8") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000632f4be6"
       (reference "R9") (unit 1) (value "30") (footprint "Resistor_THT:R_Array_SIP8")
@@ -2418,7 +2418,7 @@
       (reference "R12") (unit 9) (value "4k7") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000634cedfb"
-      (reference "R13") (unit 1) (value "4,7k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R13") (unit 1) (value "4,7k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-00006348aab1"
       (reference "R14") (unit 1) (value "30") (footprint "Resistor_THT:R_Array_SIP8")
@@ -2457,43 +2457,43 @@
       (reference "R16") (unit 4) (value "30") (footprint "Resistor_THT:R_Array_SIP8")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000634a04e5"
-      (reference "R17") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R17") (unit 1) (value "4k7") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000634b4ee1"
-      (reference "R18") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R18") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633cee41"
-      (reference "R19") (unit 1) (value "18k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R19") (unit 1) (value "18k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633cf4c0"
-      (reference "R20") (unit 1) (value "180k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R20") (unit 1) (value "180k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633cf9f3"
-      (reference "R21") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R21") (unit 1) (value "100k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/e188b195-ea9b-4248-b9f7-2bb25eef8d9d"
-      (reference "R22") (unit 1) (value "130") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R22") (unit 1) (value "130") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632edcbc"
       (reference "R23") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000634bba43"
-      (reference "R24") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R24") (unit 1) (value "1k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000634bd4f3"
-      (reference "R25") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R25") (unit 1) (value "1k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/22917e83-fe52-48d5-85c3-92352b60e4e7"
-      (reference "R30") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R30") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/8f510643-753d-4c07-8d73-30b2fb100c7e"
-      (reference "R31") (unit 1) (value "30") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R31") (unit 1) (value "30") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/0f21ea54-b5c8-4cc2-9b64-4c65fef83867"
-      (reference "R32") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R32") (unit 1) (value "1k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/8ecb6a06-d51f-4357-b923-6e1e2bc8da25"
-      (reference "R33") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R33") (unit 1) (value "1k") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-000063499ba8"
       (reference "R40") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Array_SIP10")
@@ -2502,10 +2502,10 @@
       (reference "R41") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d1a79"
-      (reference "R50") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R50") (unit 1) (value "100") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d1377"
-      (reference "R51") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R51") (unit 1) (value "100") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000634e8493"
       (reference "R52") (unit 1) (value "3k9") (footprint "Resistor_THT:R_Array_SIP8")
@@ -2529,10 +2529,10 @@
       (reference "R52") (unit 7) (value "3k9") (footprint "Resistor_THT:R_Array_SIP8")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/57a5a69e-1936-4338-88f2-292fb2650d2d"
-      (reference "R53") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R53") (unit 1) (value "100") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/e02aaecd-9cdd-44d9-bcad-bf17d9f3357f"
-      (reference "R54") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R54") (unit 1) (value "100") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006315bff5/00000000-0000-0000-0000-0000632e7155"
       (reference "S1") (unit 1) (value "SW_DIP_x08") (footprint "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm")
