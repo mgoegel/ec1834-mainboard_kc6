@@ -714,13 +714,13 @@
       (reference "Br4") (unit 1) (value "Br4") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000063239fae/caee2501-64c7-4da0-9b97-e5684790cc90"
-      (reference "C2") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C2") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/d7ea73ec-7fa5-41dd-bcfa-f20eefbbd1b4"
-      (reference "C3") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C3") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/537fa3c8-a197-473c-a875-2d2b99dde0a6"
-      (reference "C4") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C4") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/db7ecb69-9a35-445f-becc-e006af4872b0"
       (reference "C5") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal")
@@ -738,73 +738,67 @@
       (reference "C10") (unit 1) (value "10pF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/4e7d68d3-8aa3-4656-a70b-a7a2561eeac8"
-      (reference "C101") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C101") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/2fa6c8f2-22e7-410c-a759-2e7d9aeb7310"
-      (reference "C102") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C102") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/3bc7f376-49a0-4ca4-9b1d-1480ce4feefb"
-      (reference "C103") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C103") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/6b4b9439-7e1f-484c-bc26-2673d803da24"
-      (reference "C104") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C104") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/aaeaa4ac-c33c-4f6b-b3f7-a31eaa05a756"
-      (reference "C105") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C105") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/85e0a5ff-da88-4463-94f2-2604c19cbea7"
-      (reference "C106") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C106") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/776a53b3-ffda-4be0-b20b-c879d136c74c"
-      (reference "C107") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C107") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/d6126ba1-74c2-479e-b359-ea3b7394d264"
-      (reference "C108") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C108") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/b258496a-0343-4295-98cc-ee1ec148c01a"
-      (reference "C109") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C109") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/e620046b-5141-45c4-a2e0-8d45fbb65237"
-      (reference "C110") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C110") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/368a8968-6a86-4272-b901-a2e532cd27d2"
-      (reference "C111") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C111") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/ee72e43b-1952-408d-b201-52959ff4cd16"
-      (reference "C112") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C112") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/c4e0fae0-1b5b-47b2-9dcd-605eebaab683"
-      (reference "C113") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C113") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/1e99b39e-c27b-4199-b938-972b1fe71147"
-      (reference "C114") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C114") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/979511c6-eb29-430a-86ca-494c0880f856"
-      (reference "C115") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C115") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/51080486-8cc1-47e7-bd90-10b22f883c8c"
-      (reference "C116") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C116") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/39d0f30c-0d48-4c7b-a85c-b60aa0021863"
-      (reference "C117") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/771c72fc-771c-45e0-99cf-07c042042a58"
-      (reference "C118") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C117") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/0f15b8aa-dfca-4af9-99bc-45c84e25ac11"
-      (reference "C119") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C119") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/7240a0e9-baf7-495c-aa7c-ffeba3cb1584"
-      (reference "C120") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C120") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/6c138fc9-d154-43ff-87de-28327b0f4562"
-      (reference "C121") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C121") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/b4ac80d0-924c-4fe5-b063-03b04a7a7b25"
-      (reference "C122") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/74df26ee-c95c-4977-8b87-36e773e62ed1"
-      (reference "C123") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+    (path "/00000000-0000-0000-0000-000063239fae/771c72fc-771c-45e0-99cf-07c042042a58"
+      (reference "C127") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-000063175cec"
       (reference "D1") (unit 1) (value "K1810WM87") (footprint "Package_DIP:DIP-40_W15.24mm")
@@ -1901,8 +1895,8 @@
     (path "/00000000-0000-0000-0000-000063239fae/c3541302-63a1-4dca-9bc6-9937275d1753"
       (reference "K19") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f33f2"
-      (reference "K21") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+    (path "/00000000-0000-0000-0000-000063239fae/7a270135-f769-4c79-8b41-7332ef0190ab"
+      (reference "K20") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f33fc"
       (reference "K22") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -1916,17 +1910,8 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c738c"
       (reference "K25") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c7396"
-      (reference "K26") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f344c"
       (reference "K27") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c73dc"
-      (reference "K28") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c73e6"
-      (reference "K29") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f3438"
       (reference "K30") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -1934,17 +1919,11 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f3442"
       (reference "K31") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c747c"
-      (reference "K32") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f3456"
       (reference "K33") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c7418"
       (reference "K34") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006356539b"
-      (reference "K35") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000635656e5"
       (reference "K36") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -1958,23 +1937,11 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c7486"
       (reference "K39") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c749a"
-      (reference "K40") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000635d0f75"
-      (reference "K43") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000635658c9"
       (reference "K44") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c73a0"
       (reference "K45") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-000063569429"
-      (reference "K46") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c74a4"
-      (reference "K47") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006356b65f"
       (reference "K48") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -1999,9 +1966,6 @@
     )
     (path "/00000000-0000-0000-0000-000063239fae/4199f1b2-96b2-4e34-9051-0f760af63e86"
       (reference "K55") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c431"
-      (reference "K56") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c74ae"
       (reference "K57") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2032,9 +1996,6 @@
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c7454"
       (reference "K66") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f33d4"
-      (reference "K67") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c44f"
       (reference "K68") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2078,23 +2039,14 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000632e6fe7"
       (reference "K81") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c742c"
-      (reference "K82") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f3406"
       (reference "K83") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000634f3410"
       (reference "K84") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c463"
-      (reference "K85") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c46d"
       (reference "K86") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c7436"
-      (reference "K87") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-0000633c74d6"
       (reference "K88") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2174,9 +2126,6 @@
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c4bd"
       (reference "K113") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c4c7"
-      (reference "K114") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-000063239fae/00000000-0000-0000-0000-00006330c49f"
       (reference "K115") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
@@ -2228,89 +2177,8 @@
     (path "/00000000-0000-0000-0000-00006315bff5/3b570a9e-a5d0-49d4-a28d-ed1056a55a73"
       (reference "PS4") (unit 1) (value "PS4") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a450"
-      (reference "PS5:1") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a446"
-      (reference "PS5:2") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a45a"
-      (reference "PS5:3") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf3fb"
-      (reference "PS5:4") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a43c"
-      (reference "PS5:5") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a41e"
-      (reference "PS5:6") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf3f1"
-      (reference "PS5:7") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a432"
-      (reference "PS5:8") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a414"
-      (reference "PS5:9") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f59b2a"
-      (reference "PS5:10") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecead7"
-      (reference "PS5:11") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f5a428"
-      (reference "PS5:12") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e46804"
-      (reference "PS5:13") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fae54"
-      (reference "PS5:14") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e4595e"
-      (reference "PS5:15") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/3373e911-1e09-4097-8c96-aedff7a64dd3"
-      (reference "PS5:16") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/a05b7388-e23e-49dd-88f3-3c293f54c08d"
-      (reference "PS5:17") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064e45f0a"
-      (reference "PS5:18") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/5467628d-eba7-4e54-9305-56f15396cc79"
-      (reference "PS5:19") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/b07ddedb-21ab-45d5-a787-c89e3e0be3d0"
-      (reference "PS5:20") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/0d5941b4-92a2-4dcd-a55b-fb20119cf089"
-      (reference "PS5:21") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/65a19e0e-5f9d-4975-8150-e7b24846fd08"
-      (reference "PS5:22") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/3e23625d-b0e6-48e3-ad9d-23dc1a0ccf25"
-      (reference "PS5:23") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/60611e96-b1c4-449e-8f85-f98a270b1c3c"
-      (reference "PS5:24") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-0000650fb624"
-      (reference "PS5:25") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000063d421bd"
-      (reference "PS5:26") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064ecf405"
-      (reference "PS5:27") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
-    )
-    (path "/00000000-0000-0000-0000-00006315c7dd/00000000-0000-0000-0000-000064f58830"
-      (reference "PS5:28") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5_Single")
+    (path "/00000000-0000-0000-0000-00006315c7dd/211ec6d1-7944-4046-9f57-80d88ee90a82"
+      (reference "PS5") (unit 1) (value "PS5") (footprint "EC1834-Board:Pruefstecker5")
     )
     (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000633d02c5"
       (reference "R1") (unit 1) (value "4k7") (footprint "EC1834-Board:R_Axial_L9.0mm_D1.8mm_P12.70mm_Horizontal")
@@ -2544,16 +2412,16 @@
       (reference "V2") (unit 1) (value "SAY30") (footprint "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp")
     )
     (path "/00000000-0000-0000-0000-000063239fae/20c1698b-e801-42e0-abc4-898025170bb8"
-      (reference "V3") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "V3") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/b3da5b0e-673f-4fd2-a1cd-bf54f4177e09"
-      (reference "V4") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "V4") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/2de132e6-aa8b-4923-b7b7-750c53c78e9b"
-      (reference "V5") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "V5") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000063239fae/5e1f60dd-3dde-427c-95da-2032736a14f7"
-      (reference "V6") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "V6") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-0000631598da/477b2d32-b9a2-44dc-ae4a-c732703caa87"
       (reference "W2") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
