@@ -1,8 +1,18 @@
 # robotron EC1834 Mainboard Schema
 
+Der Robotron EC1834 ist ein 8086 basierter PC.
+
+Hier ist die digitale Version des Schaltplans von 1988, inkl. Platinen-Layout.
+Die Platine wurde aktuell noch nicht geroutet, da dies beträchtlicher Zeitaufwand ist.
+
+Falls sich das jemand antun möchte, halte ich ihn nicht davon ab... ;-)
+
+https://www.robotrontechnik.de/index.htm?/html/computer/ec1834.htm
+
+
 ## Anschlüsse
 
-### Pin Header
+### Pin Header / Bus Connector
 
 * X1.1-8 ISA Slots
 * X2 Power 12P,12N,5N,GND
