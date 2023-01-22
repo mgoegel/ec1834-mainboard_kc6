@@ -260,7 +260,7 @@
     (property "Sheet file" "EC1834_201.2.kicad_sch" (id 1) (at 107.95 440.0046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV}}" input (at 289.56 381 0)
+    (pin "{AENBRD ~{AEN} MEMR PB3 ~{IOCHCK} BHE DRQ0 ~{DACK0BRD} DACK0 ~{DACK0} ~{INTA} ~{IOR} ~{IOW} ~{XIOR} ~{XIOW} ~{XMEMR} ~{MEMR} ~{MEMW} ~{NMIADRCS} ~{TIMERCS} ~{PPICS} ~{NIMREGCS} IRQ0 IRQ1 OSC OSC1 PCLK CLK86 ~{MEMADRSEL} NMI NPNPI RESET ~{RESETDRV} MDPEE MDPOE}" input (at 289.56 381 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6f10e1e5-1641-4736-b573-158d4b516c63)
     )
