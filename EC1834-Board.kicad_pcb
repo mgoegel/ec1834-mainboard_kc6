@@ -25108,7 +25108,7 @@
     (tags "R")
     (property "Sheetfile" "EC1834_201.1.kicad_sch")
     (property "Sheetname" "EC1834 201.1")
-    (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000632fb845")
+    (path "/00000000-0000-0000-0000-0000631598da/00000000-0000-0000-0000-0000632f709a")
     (attr through_hole)
     (fp_text reference "R9" (at 20.835 0 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
