@@ -12683,6 +12683,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10ea4136-0426-4cfa-aca1-2f41f8985c41)
   )
+  (text "←" (at 199.39 180.34 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 1979a969-136d-477e-9e3e-1adb7328b27b)
+  )
   (text "NMI Maskierung\n\nvia Port A0h \n80h NMI erlaubt\n00h NMI verboten"
     (at 96.52 256.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
